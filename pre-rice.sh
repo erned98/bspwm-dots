@@ -44,7 +44,7 @@ while true; do
                 esac
             done
 
-            # let's install other down-the-surface utilities
+            # let's install other under-the-hood utilities
             yay -S pulsemixer ly betterlockscreen pipewire pipewire-pulse pipewire-alsa pipewire-jack
             
             # let's install basic apps
@@ -52,8 +52,8 @@ while true; do
             yay -S firefox feh ncmpcpp mpd mpc zathura ranger fastfetch mpv mplayer gvim timeshift timeshift-autosnap scrot
 
             # let's install some additional apps
-            # echo -e '\e[1;36mInstalling user-defined applications...'
-            # yay -S android-tools libreoffice-fresh qalculate-gtk spotify-launcher calcurse newsboat redshift mp3gain ffmpeg gimp audacity
+            echo -e '\e[1;36mInstalling user-defined applications...'
+            yay -S android-tools libreoffice-fresh qalculate-gtk spotify-launcher calcurse newsboat redshift mp3gain ffmpeg gimp audacity
             
             # now, let's rice!
             echo -e '\e[1;32mThe installation has completed. \e[1;97mNow, run the script rice.sh to start applying customisations to your desktop.\e[0m'
