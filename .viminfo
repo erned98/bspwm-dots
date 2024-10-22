@@ -1,0 +1,1699 @@
+# Ten plik viminfo został wygenerowany przez Vima 9.1.
+# Możesz go ostrożnie edytować!
+
+# Viminfo version
+|1,4
+
+# Wartość 'encoding' w czasie zapisu tego pliku
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Ostatni Wyszukiwany wzorzec:
+~MSle0~/feh
+
+# Ostatni Podstawienie Wyszukiwany wzorzec:
+~MSle0&^" \a
+
+# Ostatni podstawiany ciąg:
+$
+
+# Wiersz poleceń Historia (od najnowszych po najstarsze):
+:q!
+|2,0,1729604945,,"q!"
+:q
+|2,0,1729604829,,"q"
+:w
+|2,0,1729593417,,"w"
+:x
+|2,0,1729583322,,"x"
+:colorscheme flat-remix-eos
+|2,0,1729278821,,"colorscheme flat-remix-eos"
+:version
+|2,0,1728306372,,"version"
+:o ~/pre-rice.sh
+|2,0,1728307202,,"o ~/pre-rice.sh"
+:undo
+|2,0,1728305710,,"undo"
+:help clipboard
+|2,0,1728305655,,"help clipboard"
+:help cb
+|2,0,1728305639,,"help cb"
+:help registers
+|2,0,1728305539,,"help registers"
+:u
+|2,0,1728297042,,"u"
+:colorscheme flat-remix-dark
+|2,0,1728207392,,"colorscheme flat-remix-dark"
+:help bin
+|2,0,1728149265,,"help bin"
+:help replacing
+|2,0,1728136546,,"help replacing"
+:wq
+|2,0,1728064395,,"wq"
+:.,.+6
+|2,0,1727450209,,".,.+6"
+:1
+|2,0,1727423199,,"1"
+:help search
+|2,0,1727341227,,"help search"
+:search(colorscheme)
+|2,0,1727341222,,"search(colorscheme)"
+:search colorscheme
+|2,0,1727341209,,"search colorscheme"
+:help search()
+|2,0,1727341154,,"help search()"
+:help highlight-groups
+|2,0,1727084475,,"help highlight-groups"
+:w && :colorscheme flat-remix-dark
+|2,0,1727093626,,"w && :colorscheme flat-remix-dark"
+:help colorscheme
+|2,0,1727088101,,"help colorscheme"
+:source ~/.vimrc
+|2,0,1727087913,,"source ~/.vimrc"
+:source ~/.vim/colors/flat-remix-dark.vim
+|2,0,1727087164,,"source ~/.vim/colors/flat-remix-dark.vim"
+:help
+|2,0,1727087070,,"help"
+:o! ~/.bashrc
+|2,0,1727087053,,"o! ~/.bashrc"
+:o ~/.bashrc
+|2,0,1727087041,,"o ~/.bashrc"
+:runtime colors/lists/csscolors.vim
+|2,0,1727084599,,"runtime colors/lists/csscolors.vim"
+:colorscheme
+|2,0,1727080132,,"colorscheme"
+
+# Szukany ciąg Historia (od najnowszych po najstarsze):
+?/feh
+|2,1,1729593400,47,"feh"
+?/jungle
+|2,1,1729583314,47,"jungle"
+?/ho
+|2,1,1729500194,47,"ho"
+?/font
+|2,1,1729426605,47,"font"
+? @$
+|2,1,1729272997,,"@$"
+? \<picom\>
+|2,1,1729251946,,"\\<picom\\>"
+?/0.5
+|2,1,1728421418,47,"0.5"
+?/icons
+|2,1,1728420301,47,"icons"
+?/icon
+|2,1,1728420245,47,"icon"
+?/vim
+|2,1,1728307228,47,"vim"
+? \<blur\>
+|2,1,1728307133,,"\\<blur\\>"
+? ^" \a
+|2,1,1728306618,,"^\" \\a"
+? \<usually\>
+|2,1,1728305601,,"\\<usually\\>"
+? \<All\>
+|2,1,1728305588,,"\\<All\\>"
+?/clipbo
+|2,1,1728305389,47,"clipbo"
+?/clip
+|2,1,1728305237,47,"clip"
+?/devicons
+|2,1,1728148810,47,"devicons"
+? \<matrix\>
+|2,1,1728135005,,"\\<matrix\\>"
+?/stat
+|2,1,1728065107,47,"stat"
+?/set preview_ima
+|2,1,1728060704,47,"set preview_ima"
+?/frame_
+|2,1,1728047939,47,"frame_"
+?/Fira
+|2,1,1728047785,47,"Fira"
+?/transpa
+|2,1,1727518282,47,"transpa"
+?/critic
+|2,1,1727518260,47,"critic"
+?/transp
+|2,1,1727518241,47,"transp"
+?/tran
+|2,1,1727518186,47,"tran"
+?/5
+|2,1,1727443003,47,"5"
+?/6
+|2,1,1727437370,47,"6"
+?/3
+|2,1,1727437225,47,"3"
+?/4
+|2,1,1727437182,47,"4"
+?/yellow
+|2,1,1727423021,47,"yellow"
+?/green
+|2,1,1727422083,47,"green"
+? \<visualizer_type\>
+|2,1,1727421932,,"\\<visualizer_type\\>"
+?/port
+|2,1,1727354287,47,"port"
+?/pipewire
+|2,1,1727354169,47,"pipewire"
+?/alsa
+|2,1,1727354155,47,"alsa"
+? \<notify\>
+|2,1,1727349516,,"\\<notify\\>"
+?/edito
+|2,1,1727342134,47,"edito"
+?/colorscheme
+|2,1,1727341266,47,"colorscheme"
+?/colorsch
+|2,1,1727341261,47,"colorsch"
+
+# Wyrażenie Historia (od najnowszych po najstarsze):
+
+# Wiersz wprowadzeń Historia (od najnowszych po najstarsze):
+
+# Debug Line Historia (od najnowszych po najstarsze):
+
+# Rejestry:
+"0	CHAR	0
+	accent             = 1db954
+	accent-active      = 1ed760
+	accent-inactive    = 121212
+	banner             = 1ed760
+	border-active      = 1ed760
+	border-inactive    = 535353
+	header             = 535353
+	highlight          = 1a1a1a
+	main               = 121212
+	notification       = 4687d6
+	notification-error = e22134
+	subtext            = b3b3b3
+	text               = FFFFFF
+	
+	
+|3,0,0,0,15,0,1729501141,"accent             = 1db954","accent-active      = 1ed760","accent-inactive    = 121212","banner             = 1ed760","border-active      = 1ed760","border-inactive    = 535353","header             = 535353","highlight          = 1a1a1a","main               = 121212","notification       = 4687d6","notification-error = e22134","subtext            = b3b3b3","text               = FFFFFF","",""
+""1	LINE	0
+	ddFlatRemix]
+|3,1,1,1,1,0,1729501177,"ddFlatRemix]"
+"2	LINE	0
+	
+|3,0,2,1,1,0,1729497484,""
+"3	LINE	0
+	    kitty -e htop
+|3,0,3,1,1,0,1729497482,"    kitty -e htop"
+"4	LINE	0
+	# task manager
+|3,0,4,1,1,0,1729497481,"# task manager"
+"5	LINE	0
+	# task manager
+|3,0,5,1,1,0,1729497481,"# task manager"
+"6	LINE	0
+	    break
+|3,0,6,1,1,0,1729439101,"    break"
+"7	LINE	0
+	else
+|3,0,7,1,1,0,1729439100,"else"
+"8	LINE	0
+	mime ^audio|ogg$, terminal, has mplayer  = mplayer -- "$@"
+|3,0,8,1,1,0,1729438126,"mime ^audio|ogg$, terminal, has mplayer  = mplayer -- \"$@\""
+"9	LINE	0
+	
+|3,0,9,1,1,0,1729436397,""
+"-	CHAR	0
+	#
+|3,0,36,0,1,0,1729426522,"#"
+
+# Zakładki w plikach:
+'0  41  0  ~/.config/sxhkd/sxhkdrc
+|4,48,41,0,1729604945,"~/.config/sxhkd/sxhkdrc"
+'1  52  29  ~/pre-rice.sh
+|4,49,52,29,1729604829,"~/pre-rice.sh"
+'2  9  12  ~/.config/betterlockscreen/betterlockscreenrc
+|4,50,9,12,1729604823,"~/.config/betterlockscreen/betterlockscreenrc"
+'3  192  36  ~/.config/sxhkd/sxhkdrc
+|4,51,192,36,1729604392,"~/.config/sxhkd/sxhkdrc"
+'4  192  36  ~/.config/sxhkd/sxhkdrc
+|4,52,192,36,1729604392,"~/.config/sxhkd/sxhkdrc"
+'5  190  0  ~/.config/sxhkd/sxhkdrc
+|4,53,190,0,1729603990,"~/.config/sxhkd/sxhkdrc"
+'6  190  0  ~/.config/sxhkd/sxhkdrc
+|4,54,190,0,1729603990,"~/.config/sxhkd/sxhkdrc"
+'7  190  0  ~/.config/sxhkd/sxhkdrc
+|4,55,190,0,1729603990,"~/.config/sxhkd/sxhkdrc"
+'8  190  0  ~/.config/sxhkd/sxhkdrc
+|4,56,190,0,1729603990,"~/.config/sxhkd/sxhkdrc"
+'9  295  26  ~/.config/spicetify/Themes/text/color.ini
+|4,57,295,26,1729603664,"~/.config/spicetify/Themes/text/color.ini"
+
+# Lista odniesień (począwszy od najnowszych):
+-'  41  0  ~/.config/sxhkd/sxhkdrc
+|4,39,41,0,1729604945,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1729604915,"~/.config/sxhkd/sxhkdrc"
+-'  52  29  ~/pre-rice.sh
+|4,39,52,29,1729604829,"~/pre-rice.sh"
+-'  52  29  ~/pre-rice.sh
+|4,39,52,29,1729604829,"~/pre-rice.sh"
+-'  9  12  ~/.config/betterlockscreen/betterlockscreenrc
+|4,39,9,12,1729604823,"~/.config/betterlockscreen/betterlockscreenrc"
+-'  9  12  ~/.config/betterlockscreen/betterlockscreenrc
+|4,39,9,12,1729604823,"~/.config/betterlockscreen/betterlockscreenrc"
+-'  192  36  ~/.config/sxhkd/sxhkdrc
+|4,39,192,36,1729604392,"~/.config/sxhkd/sxhkdrc"
+-'  192  36  ~/.config/sxhkd/sxhkdrc
+|4,39,192,36,1729604392,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1729604004,"~/.config/sxhkd/sxhkdrc"
+-'  190  0  ~/.config/sxhkd/sxhkdrc
+|4,39,190,0,1729603990,"~/.config/sxhkd/sxhkdrc"
+-'  190  0  ~/.config/sxhkd/sxhkdrc
+|4,39,190,0,1729603990,"~/.config/sxhkd/sxhkdrc"
+-'  190  0  ~/.config/sxhkd/sxhkdrc
+|4,39,190,0,1729603990,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1729603966,"~/.config/sxhkd/sxhkdrc"
+-'  295  26  ~/.config/spicetify/Themes/text/color.ini
+|4,39,295,26,1729603664,"~/.config/spicetify/Themes/text/color.ini"
+-'  295  26  ~/.config/spicetify/Themes/text/color.ini
+|4,39,295,26,1729603664,"~/.config/spicetify/Themes/text/color.ini"
+-'  295  26  ~/.config/spicetify/Themes/text/color.ini
+|4,39,295,26,1729603664,"~/.config/spicetify/Themes/text/color.ini"
+-'  295  26  ~/.config/spicetify/Themes/text/color.ini
+|4,39,295,26,1729603664,"~/.config/spicetify/Themes/text/color.ini"
+-'  295  26  ~/.config/spicetify/Themes/text/color.ini
+|4,39,295,26,1729603664,"~/.config/spicetify/Themes/text/color.ini"
+-'  295  26  ~/.config/spicetify/Themes/text/color.ini
+|4,39,295,26,1729603664,"~/.config/spicetify/Themes/text/color.ini"
+-'  295  26  ~/.config/spicetify/Themes/text/color.ini
+|4,39,295,26,1729603664,"~/.config/spicetify/Themes/text/color.ini"
+-'  295  26  ~/.config/spicetify/Themes/text/color.ini
+|4,39,295,26,1729603664,"~/.config/spicetify/Themes/text/color.ini"
+-'  1  0  ~/.config/betterlockscreen/betterlockscreenrc
+|4,39,1,0,1729603563,"~/.config/betterlockscreen/betterlockscreenrc"
+-'  1  0  ~/.config/betterlockscreen/betterlockscreenrc
+|4,39,1,0,1729603563,"~/.config/betterlockscreen/betterlockscreenrc"
+-'  1  0  ~/.config/spicetify/Themes/text/color.ini
+|4,39,1,0,1729596690,"~/.config/spicetify/Themes/text/color.ini"
+-'  1  0  ~/.config/spicetify/Themes/text/color.ini
+|4,39,1,0,1729596690,"~/.config/spicetify/Themes/text/color.ini"
+-'  1  0  ~/.config/spicetify/Themes/text/color.ini
+|4,39,1,0,1729596690,"~/.config/spicetify/Themes/text/color.ini"
+-'  1  0  ~/.config/spicetify/Themes/text/color.ini
+|4,39,1,0,1729596690,"~/.config/spicetify/Themes/text/color.ini"
+-'  1  0  ~/.config/spicetify/Themes/text/color.ini
+|4,39,1,0,1729596690,"~/.config/spicetify/Themes/text/color.ini"
+-'  1  0  ~/.config/spicetify/Themes/text/color.ini
+|4,39,1,0,1729596690,"~/.config/spicetify/Themes/text/color.ini"
+-'  1  0  ~/.config/spicetify/Themes/text/color.ini
+|4,39,1,0,1729596690,"~/.config/spicetify/Themes/text/color.ini"
+-'  1  0  ~/.config/spicetify/Themes/text/color.ini
+|4,39,1,0,1729596690,"~/.config/spicetify/Themes/text/color.ini"
+-'  91  20  ~/.config/sxhkd/sxhkdrc
+|4,39,91,20,1729593311,"~/.config/sxhkd/sxhkdrc"
+-'  91  20  ~/.config/sxhkd/sxhkdrc
+|4,39,91,20,1729593311,"~/.config/sxhkd/sxhkdrc"
+-'  91  20  ~/.config/sxhkd/sxhkdrc
+|4,39,91,20,1729593311,"~/.config/sxhkd/sxhkdrc"
+-'  91  20  ~/.config/sxhkd/sxhkdrc
+|4,39,91,20,1729593311,"~/.config/sxhkd/sxhkdrc"
+-'  91  20  ~/.config/sxhkd/sxhkdrc
+|4,39,91,20,1729593311,"~/.config/sxhkd/sxhkdrc"
+-'  91  20  ~/.config/sxhkd/sxhkdrc
+|4,39,91,20,1729593311,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1729593081,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1729593081,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1729593081,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/pre-rice.sh
+|4,39,1,0,1729591712,"~/pre-rice.sh"
+-'  1  0  ~/pre-rice.sh
+|4,39,1,0,1729591712,"~/pre-rice.sh"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  101  49  ~/.config/kitty/kitty.conf
+|4,39,101,49,1729588129,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1729587468,"~/.config/kitty/kitty.conf"
+
+# Historia zakładek w plikach (od najnowszych po najstarsze):
+
+> ~/.config/sxhkd/sxhkdrc
+	*	1729604941	0
+	"	41	0
+	^	41	0
+	.	42	0
+	+	112	12
+	+	130	16
+	+	204	86
+	+	89	0
+	+	83	34
+	+	115	1
+	+	116	0
+	+	119	1
+	+	120	0
+	+	123	1
+	+	124	0
+	+	127	1
+	+	128	0
+	+	133	32
+	+	137	40
+	+	141	13
+	+	162	54
+	+	167	0
+	+	170	22
+	+	174	21
+	+	172	16
+	+	185	14
+	+	192	30
+	+	26	13
+	+	29	0
+	+	36	8
+	+	42	11
+	+	36	15
+	+	201	175
+	+	204	187
+	+	201	150
+	+	204	189
+	+	12	0
+	+	12	1
+	+	13	1
+	+	14	1
+	+	15	1
+	+	17	0
+	+	42	0
+	+	42	1
+	+	43	1
+	+	44	1
+	+	45	1
+	+	46	0
+	+	42	0
+	+	144	0
+	+	144	1
+	+	145	1
+	+	146	1
+	+	147	1
+	+	149	0
+	+	144	0
+	+	162	0
+	+	162	1
+	+	163	1
+	+	164	1
+	+	165	1
+	+	166	0
+	+	162	0
+	+	176	1
+	+	177	1
+	+	178	1
+	+	179	1
+	+	180	1
+	+	185	1
+	+	186	1
+	+	187	1
+	+	188	1
+	+	189	0
+	+	194	1
+	+	195	1
+	+	196	1
+	+	197	1
+	+	198	0
+	+	42	8
+	+	34	14
+	+	35	11
+	+	36	22
+	+	35	21
+	+	36	29
+	+	42	0
+	+	38	9
+	+	35	23
+	+	36	40
+	+	40	0
+	+	39	19
+	+	40	14
+	+	39	30
+	+	40	26
+	+	39	23
+	+	40	30
+	+	39	25
+	+	40	47
+	+	91	22
+	+	99	1
+	+	100	0
+	+	91	20
+	+	192	36
+	+	41	0
+	+	42	0
+
+> ~/.config/betterlockscreen/betterlockscreenrc
+	*	1729604820	0
+	"	9	12
+	^	23	19
+	.	28	18
+	+	19	28
+	+	28	18
+
+> ~/.config/spicetify/Themes/text/color.ini
+	*	1729596733	0
+	"	295	26
+	^	295	27
+	.	295	26
+	+	272	10
+	+	5	11
+	+	272	10
+	+	274	0
+	+	272	11
+	+	287	0
+	+	273	26
+	+	274	26
+	+	275	26
+	+	276	26
+	+	277	26
+	+	278	26
+	+	279	26
+	+	280	26
+	+	281	26
+	+	282	26
+	+	283	26
+	+	284	26
+	+	277	26
+	+	281	26
+	+	292	26
+	+	294	26
+	+	295	26
+
+> ~/pre-rice.sh
+	*	1729593417	0
+	"	52	29
+	^	52	30
+	.	52	29
+	+	52	0
+	+	52	156
+	+	3	21
+	+	4	0
+	+	11	4
+	+	11	0
+	+	4	0
+	+	5	248
+	+	5	102
+	+	5	334
+	+	8	60
+	+	10	15
+	+	11	0
+	+	12	0
+	+	52	156
+	+	61	7
+	+	52	11
+	+	51	11
+	+	50	11
+	+	49	11
+	+	48	11
+	+	47	11
+	+	45	11
+	+	44	15
+	+	43	19
+	+	42	19
+	+	41	23
+	+	40	19
+	+	39	23
+	+	42	23
+	+	38	23
+	+	37	19
+	+	36	23
+	+	35	23
+	+	34	19
+	+	33	11
+	+	32	11
+	+	31	11
+	+	30	11
+	+	29	11
+	+	28	24
+	+	27	11
+	+	26	11
+	+	25	11
+	+	24	11
+	+	23	11
+	+	22	11
+	+	21	11
+	+	20	11
+	+	19	11
+	+	18	11
+	+	17	11
+	+	16	11
+	+	15	11
+	+	14	11
+	+	13	11
+	+	12	11
+	+	11	11
+	+	57	13
+	+	52	169
+	+	56	70
+	+	52	72
+	+	56	97
+	+	5	531
+	+	9	11
+	+	56	13
+	+	55	13
+	+	61	16
+	+	5	30
+	+	5	193
+	+	9	11
+	+	8	64
+	+	5	259
+	+	10	11
+	+	61	10
+	+	5	239
+	+	5	436
+	+	5	10
+	+	8	63
+	+	5	107
+	+	5	453
+	+	5	546
+	+	5	368
+	+	61	55
+	+	41	62
+	+	61	54
+	+	60	0
+	+	59	150
+	+	59	66
+	+	5	32
+	+	5	452
+	+	56	107
+	+	52	72
+	+	56	76
+	+	48	28
+	+	5	429
+	+	56	34
+	+	52	78
+	+	56	138
+	+	52	29
+
+> ~/.config/kitty/kitty.conf
+	*	1729588127	0
+	"	101	49
+	^	101	50
+	.	101	49
+	+	19	18
+	+	25	21
+	+	28	19
+	+	29	20
+	+	30	21
+	+	33	22
+	+	39	24
+	+	42	23
+	+	45	22
+	+	9	20
+	+	9	22
+	+	9	46
+	+	9	40
+	+	9	39
+	+	9	46
+	+	9	51
+	+	14	24
+	+	14	25
+	+	14	24
+	+	14	25
+	+	14	23
+	+	9	42
+	+	9	44
+	+	9	39
+	+	9	41
+	+	14	23
+	+	1	0
+	+	7	72
+	+	1	1
+	+	2	1
+	+	3	1
+	+	4	1
+	+	5	1
+	+	6	1
+	+	7	0
+	+	7	72
+	+	7	0
+	+	1	0
+	+	2	0
+	+	7	0
+	+	8	0
+	+	9	48
+	+	9	23
+	+	9	25
+	+	39	28
+	+	45	33
+	+	46	36
+	+	15	28
+	+	16	41
+	+	9	0
+	+	102	0
+	+	9	0
+	+	13	0
+	+	9	27
+	+	10	27
+	+	11	27
+	+	12	27
+	+	53	0
+	+	42	0
+	+	48	0
+	+	48	1
+	+	49	1
+	+	50	1
+	+	51	1
+	+	52	0
+	+	53	0
+	+	54	0
+	+	53	0
+	+	58	27
+	+	59	27
+	+	62	27
+	+	63	27
+	+	66	27
+	+	67	27
+	+	70	27
+	+	71	27
+	+	74	27
+	+	75	27
+	+	78	27
+	+	79	27
+	+	82	27
+	+	83	27
+	+	86	27
+	+	87	27
+	+	89	27
+	+	90	27
+	+	91	27
+	+	10	71
+	+	12	73
+	+	10	67
+	+	12	68
+	+	14	21
+	+	91	35
+	+	93	0
+	+	93	1
+	+	94	1
+	+	95	1
+	+	96	1
+	+	98	0
+	+	101	49
+
+> ~/.config/ranger/rc.conf
+	*	1729583321	0
+	"	149	19
+	^	149	20
+	.	149	19
+	+	780	25
+	+	149	21
+	+	781	0
+	+	783	19
+	+	73	21
+	+	119	30
+	+	149	19
+
+> /usr/bin/ranger
+	*	1729583200	0
+	"	1	0
+
+> ~/rice.sh
+	*	1729510579	0
+	"	4	93
+	^	4	94
+	.	4	93
+	+	4	93
+
+> ~/.config/bspwm/bspwmrc
+	*	1729505233	0
+	"	66	42
+	^	66	43
+	.	66	42
+	+	62	35
+	+	50	39
+	+	63	39
+	+	64	28
+	+	58	53
+	+	59	51
+	+	60	54
+	+	64	38
+	+	65	25
+	+	66	38
+	+	65	13
+	+	62	13
+	+	74	13
+	+	48	40
+	+	50	35
+	+	78	18
+	+	64	45
+	+	2	0
+	+	9	61
+	+	34	0
+	+	3	1
+	+	4	1
+	+	5	1
+	+	6	1
+	+	7	1
+	+	8	1
+	+	48	40
+	+	75	13
+	+	63	13
+	+	48	40
+	+	78	20
+	+	81	9
+	+	36	33
+	+	61	43
+	+	37	34
+	+	48	1
+	+	50	40
+	+	79	10
+	+	82	0
+	+	37	34
+	+	76	13
+	+	55	39
+	+	61	47
+	+	64	47
+	+	76	47
+	+	62	39
+	+	63	43
+	+	65	44
+	+	66	42
+	+	74	40
+	+	64	45
+	+	61	46
+	+	63	39
+	+	61	43
+	+	55	35
+	+	83	1
+	+	34	0
+	+	33	0
+	+	15	0
+	+	17	1
+	+	23	1
+	+	25	1
+	+	10	0
+	+	11	1
+	+	12	1
+	+	13	1
+	+	14	0
+	+	10	0
+	+	17	0
+	+	18	1
+	+	19	1
+	+	20	1
+	+	21	1
+	+	22	1
+	+	26	0
+	+	26	1
+	+	27	1
+	+	28	1
+	+	29	1
+	+	30	1
+	+	43	0
+	+	43	1
+	+	44	1
+	+	45	1
+	+	46	1
+	+	47	0
+	+	68	0
+	+	68	1
+	+	69	1
+	+	70	1
+	+	71	1
+	+	73	0
+	+	48	0
+	+	31	0
+	+	23	0
+	+	15	0
+	+	81	0
+	+	59	43
+	+	66	42
+
+> ~/.config/spicetify/themes/text/color.ini
+	*	1729504795	0
+	"	1	0
+
+> ~/.config/kitty/colors.conf
+	*	1729504496	0
+	"	38	0
+	^	36	0
+	.	35	0
+	+	35	17
+	+	31	6
+	+	33	0
+	+	5	0
+	+	15	0
+	+	7	0
+	+	34	0
+	+	6	0
+	+	7	0
+	+	11	0
+	+	15	0
+	+	19	0
+	+	23	0
+	+	27	0
+	+	33	0
+	+	9	0
+	+	33	0
+	+	13	0
+	+	33	0
+	+	17	0
+	+	33	0
+	+	21	0
+	+	33	0
+	+	25	0
+	+	31	0
+	+	33	0
+	+	29	0
+	+	34	0
+	+	10	0
+	+	34	0
+	+	14	0
+	+	34	0
+	+	18	0
+	+	34	0
+	+	22	0
+	+	34	0
+	+	26	0
+	+	34	0
+	+	30	0
+	+	35	0
+
+> ~/.config/spicetify/Themes/text/user.css
+	*	1729501084	0
+	"	166	16
+	^	12	43
+	.	12	42
+	+	12	42
+
+> ~/.config/spicetify/config-xpui.ini
+	*	1729500615	0
+	"	10	23
+	^	10	24
+	.	10	23
+	+	22	90
+	+	23	56
+	+	9	33
+	+	10	23
+
+> /var/tmp/rofi-power-menu.USewI1pJ
+	*	1729498000	0
+	"	280	1
+	^	280	2
+	.	16	28
+	+	16	28
+
+> ~/.bashrc
+	*	1729439142	0
+	"	65	37
+	^	65	38
+	.	65	37
+	+	1	0
+	+	17	59
+	+	26	0
+	+	104	16
+	+	106	15
+	+	107	21
+	+	110	18
+	+	111	18
+	+	27	0
+	+	58	17
+	+	59	15
+	+	58	18
+	+	53	17
+	+	107	17
+	+	58	17
+	+	53	17
+	+	7	50
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	2	0
+	+	1	1
+	+	2	1
+	+	3	1
+	+	4	1
+	+	5	1
+	+	6	1
+	+	7	2
+	+	8	0
+	+	15	25
+	+	17	23
+	+	12	1
+	+	98	6
+	+	102	0
+	+	98	19
+	+	113	0
+	+	112	48
+	+	113	46
+	+	118	76
+	+	26	20
+	+	71	16
+	+	73	66
+	+	71	77
+	+	73	78
+	+	27	0
+	+	79	4
+	+	79	8
+	+	17	0
+	+	17	1
+	+	18	1
+	+	19	1
+	+	20	1
+	+	21	1
+	+	17	0
+	+	27	0
+	+	27	1
+	+	28	1
+	+	29	1
+	+	30	1
+	+	31	1
+	+	27	0
+	+	81	1
+	+	82	1
+	+	83	1
+	+	84	1
+	+	85	0
+	+	81	0
+	+	32	0
+	+	22	0
+	+	86	0
+	+	103	0
+	+	149	0
+	+	71	55
+	+	65	26
+	+	79	0
+	+	65	37
+
+> ~/.config/ranger/rifle.conf
+	*	1729438134	0
+	"	113	0
+	^	114	1
+	.	113	0
+	+	131	71
+	+	132	0
+	+	114	0
+	+	114	58
+	+	117	0
+	+	115	0
+	+	116	0
+	+	114	0
+	+	115	0
+	+	113	0
+
+> ~/.config/kitty/conf.bak
+	*	1729436301	0
+	"	1	0
+
+> ~/.config/polybar/config.ini
+	*	1729436173	0
+	"	226	0
+	^	226	0
+	.	92	0
+	+	172	1
+	+	173	1
+	+	174	1
+	+	175	1
+	+	176	1
+	+	177	1
+	+	178	1
+	+	179	1
+	+	181	1
+	+	34	17
+	+	167	17
+	+	162	22
+	+	170	22
+	+	193	25
+	+	170	13
+	+	162	24
+	+	116	3
+	+	117	41
+	+	73	0
+	+	61	39
+	+	108	44
+	+	113	42
+	+	27	1
+	+	28	23
+	+	26	1
+	+	28	21
+	+	122	18
+	+	117	41
+	+	175	0
+	+	176	0
+	+	177	0
+	+	178	0
+	+	179	0
+	+	181	0
+	+	182	0
+	+	183	0
+	+	184	47
+	+	183	48
+	+	182	54
+	+	181	52
+	+	180	16
+	+	181	55
+	+	182	61
+	+	183	47
+	+	184	47
+	+	188	24
+	+	181	11
+	+	122	18
+	+	182	0
+	+	61	47
+	+	37	11
+	+	38	13
+	+	39	13
+	+	189	41
+	+	65	36
+	+	38	14
+	+	37	12
+	+	38	13
+	+	37	11
+	+	38	13
+	+	37	12
+	+	196	58
+	+	202	45
+	+	207	45
+	+	196	32
+	+	193	11
+	+	196	64
+	+	37	10
+	+	38	13
+	+	39	12
+	+	189	36
+	+	31	16
+	+	34	17
+	+	31	16
+	+	182	28
+	+	183	31
+	+	184	24
+	+	202	27
+	+	207	27
+	+	34	17
+	+	108	1
+	+	215	0
+	+	216	23
+	+	217	28
+	+	220	1
+	+	61	44
+	+	39	14
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	86	0
+	+	87	1
+	+	88	1
+	+	89	1
+	+	90	1
+	+	92	0
+
+> ~/.local/share/rofi/themes/squared-eos.rasi
+	*	1729427118	0
+	"	7	2
+	^	8	26
+	.	8	25
+	+	38	30
+	+	46	17
+	+	51	27
+	+	19	27
+	+	51	27
+	+	19	25
+	+	29	16
+	+	51	25
+	+	68	17
+	+	76	17
+	+	84	17
+	+	88	25
+	+	31	25
+	+	30	28
+	+	8	25
+
+> ~/.config/zathura/zathurarc
+	*	1729427114	0
+	"	19	0
+	^	22	23
+	.	22	22
+	+	61	35
+	+	22	28
+	+	23	22
+	+	24	22
+	+	26	24
+	+	27	24
+	+	29	23
+	+	32	33
+	+	33	33
+	+	35	33
+	+	36	35
+	+	38	25
+	+	39	34
+	+	41	35
+	+	42	35
+	+	44	25
+	+	45	25
+	+	47	27
+	+	48	27
+	+	51	30
+	+	52	29
+	+	22	22
+
+> ~/.config/dunst/dunstrc
+	*	1729426617	0
+	"	139	23
+	^	139	24
+	.	139	23
+	+	84	19
+	+	25	16
+	+	139	31
+	+	30	14
+	+	139	37
+	+	217	33
+	+	106	25
+	+	139	39
+	+	143	20
+	+	139	38
+	+	30	13
+	+	340	52
+	+	348	52
+	+	230	21
+	+	112	15
+	+	143	18
+	+	36	16
+	+	139	41
+	+	112	16
+	+	139	41
+	+	36	17
+	+	106	25
+	+	139	23
+
+> ~/.vim/colors/flat-remix-eos.vim
+	*	1729278821	0
+	"	29	0
+	^	30	30
+	.	30	30
+	+	4	34
+	+	16	29
+	+	28	31
+	+	30	30
+	+	37	28
+	+	39	31
+	+	50	35
+	+	53	32
+	+	54	32
+	+	80	31
+	+	81	45
+	+	83	46
+	+	93	67
+	+	30	30
+
+> ~/.config/lf/colors
+	*	1729273813	0
+	"	32	0
+
+> ~/.config/lf/lfrc
+	*	1729273328	0
+	"	110	8
+	^	110	9
+	.	110	8
+	+	110	8
+
+> ~/.vimrc
+	*	1729255858	0
+	"	31	25
+	^	31	26
+	.	31	25
+	+	1	0
+	+	99	0
+	+	98	0
+	+	30	25
+	+	31	26
+	+	8	0
+	+	7	0
+	+	9	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	1	1
+	+	2	1
+	+	3	1
+	+	4	1
+	+	5	1
+	+	6	1
+	+	49	24
+	+	111	15
+	+	120	1
+	+	117	0
+	+	120	0
+	+	117	18
+	+	111	15
+	+	117	28
+	+	120	1
+	+	121	1
+	+	120	0
+	+	94	12
+	+	95	23
+	+	111	29
+	+	52	14
+	+	95	25
+	+	9	0
+	+	49	10
+	+	31	25
+
+> ~/.config/picom.conf
+	*	1728735213	0
+	"	445	1
+	^	205	2
+	.	206	0
+	+	172	0
+	+	170	0
+	+	171	0
+	+	169	21
+	+	172	0
+	+	173	0
+	+	172	17
+	+	169	1
+	+	170	1
+	+	171	1
+	+	172	1
+	+	60	0
+	+	128	17
+	+	206	0
+
+> ~/.config/rofi/config.rasi
+	*	1728499207	0
+	"	2	18
+	^	2	19
+	.	2	15
+	+	2	15
+
+> ~/.local/share/applications/gvim.desktop
+	*	1728306701	0
+	"	1	0
+
+> ~/.local/share/applications/gvim.dekstop
+	*	1728306657	0
+	"	1	0
+	^	5	25
+	.	5	24
+	+	4	8
+	+	5	22
+	+	6	11
+	+	7	8
+	+	10	11
+	+	5	24
+
+> /usr/share/vim/vim91/syntax/colortest.vim
+	*	1728306618	0
+	"	53	0
+
+> ~/.local/share/applications/gvi
+	*	1728306494	0
+	"	1	0
+
+> /usr/share/vim/vim91/doc/gui.txt
+	*	1728305687	0
+	"	448	7
+
+> /usr/share/vim/vim91/doc/quickfix.txt
+	*	1728305639	0
+	"	289	6
+
+> /usr/share/vim/vim91/doc/change.txt
+	*	1728305560	0
+	"	1247	30
+
+> ~/.vim/colors/flat-remix-dark.vim
+	*	1728207392	0
+	"	53	46
+	^	53	47
+	.	53	46
+	+	1	0
+	+	2	38
+	+	2	8
+	+	11	0
+	+	12	0
+	+	9	0
+	+	8	0
+	+	30	28
+	+	37	33
+	+	39	36
+	+	28	36
+	+	51	35
+	+	59	33
+	+	62	34
+	+	37	28
+	+	30	28
+	+	52	62
+	+	54	32
+	+	50	34
+	+	53	61
+	+	80	33
+	+	83	35
+	+	80	31
+	+	81	44
+	+	39	31
+	+	8	29
+	+	16	29
+	+	86	35
+	+	67	34
+	+	30	45
+	+	16	29
+	+	39	31
+	+	40	0
+	+	39	49
+	+	52	47
+	+	53	47
+	+	80	116
+	+	80	108
+	+	80	115
+	+	80	169
+	+	80	190
+	+	80	116
+	+	80	0
+	+	52	47
+	+	53	46
+
+> /var/tmp/vconsoleff3ynI5y.conf
+	*	1728205732	0
+	"	2	12
+	^	2	13
+	.	2	12
+	+	2	12
+
+> ~/.mpd/mpd.conf
+	*	1728139551	0
+	"	1	0
+	^	20	18
+	.	20	17
+	+	18	10
+	+	17	25
+	+	1	24
+	+	2	27
+	+	20	17
+
+> ~/.config/ncmpcpp/config
+	*	1728139538	0
+	"	13	0
+	^	38	22
+	.	38	21
+	+	64	0
+	+	75	0
+	+	77	0
+	+	79	0
+	+	81	0
+	+	85	23
+	+	87	0
+	+	143	0
+	+	152	0
+	+	154	0
+	+	156	0
+	+	158	0
+	+	160	0
+	+	189	0
+	+	191	0
+	+	195	0
+	+	199	0
+	+	203	0
+	+	204	0
+	+	143	1
+	+	49	79
+	+	2	23
+	+	42	20
+	+	43	15
+	+	2	25
+	+	40	55
+	+	32	27
+	+	35	26
+	+	36	26
+	+	39	23
+	+	40	24
+	+	38	25
+	+	39	22
+	+	32	27
+	+	34	21
+	+	39	21
+	+	40	57
+	+	39	19
+	+	40	44
+	+	39	19
+	+	40	25
+	+	14	19
+	+	39	19
+	+	38	21
+	+	36	21
+	+	34	16
+	+	35	20
+	+	34	16
+	+	14	0
+	+	16	0
+	+	50	22
+	+	49	63
+	+	35	20
+	+	36	21
+	+	39	19
+	+	38	21
+	+	32	23
+	+	40	22
+	+	9	0
+	+	10	0
+	+	11	0
+	+	37	30
+	+	48	44
+	+	49	41
+	+	30	23
+	+	48	34
+	+	32	22
+	+	38	21
+	+	26	24
+	+	38	21
+
+> /var/tmp/configIN1M1ipD.ini
+	*	1728135300	0
+	"	162	26
+	^	54	27
+	.	54	26
+	+	5	15
+	+	54	26
+
+> /var/tmp/configROXMaUYV.ini
+	*	1728135038	0
+	"	8	11
+	^	8	12
+	.	5	17
+	+	4	1
+	+	5	17
+
+> ~/.local/share/applications/calcurse.desktop
+	*	1728124603	0
+	"	8	16
+	^	8	17
+	.	8	17
+	+	4	12
+	+	5	19
+	+	6	15
+	+	7	18
+	+	8	17
+
+> /usr/share/vim/vim91/doc/help.txt
+	*	1728120429	0
+	"	3	0
+
+> ~/.config/calcurse/conf
+	*	1728119513	0
+	"	1	0
+
+> ~/.config/fastfetch/config.jsonc
+	*	1728044063	0
+	"	46	13
+	^	46	14
+	.	46	13
+	+	29	9
+	+	30	17
+	+	46	13
+
+> /var/tmp/hosts.QlYepD4o
+	*	1727696297	0
+	"	1	0
+
+> ~/.config/GIMP/2.10/gimprc
+	*	1727685289	0
+	"	1	0
+
+> ~/.config/htop/htoprc
+	*	1727685164	0
+	"	45	0
+
+> ~/.local/share/applications/ncmpcpp.desktop
+	*	1727443038	0
+	"	10	13
+	^	10	14
+	.	10	13
+	+	1	15
+	+	9	4
+	+	6	4
+	+	7	10
+	+	6	8
+	+	10	13
+
+> ~/help/test.md
+	*	1727381346	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	1	19
+	+	2	0
+	+	1	20
+	+	3	6
+	+	3	0
+
+> /var/tmp/nanorc.FSG6KKe0
+	*	1727357905	0
+	"	230	0
+
+> /var/tmp/policiestxu5UVYB.json
+	*	1727351744	0
+	"	1	0
+
+> /var/tmp/environment.6R24EVMQ
+	*	1727350481	0
+	"	9	9
+	^	9	10
+	.	6	24
+	+	6	0
+	+	7	0
+	+	9	9
+	+	6	24
+
+> ~/config
+	*	1727348691	0
+	"	40	20
+	^	40	21
+	.	40	20
+	+	46	79
+	+	40	20
+
+> /var/tmp/lightdm-gtk-greeterf0zSbhNl.conf
+	*	1727344458	0
+	"	9	92
+	^	9	93
+	.	9	92
+	+	9	92
+
+> /usr/share/vim/vim91/doc/builtin.txt
+	*	1727341227	0
+	"	8911	8
+
+> ~/Pobrane/.bashrc
+	*	1727087107	0
+	"	1	0
+
+> /usr/share/vim/vim91/doc/syntax.txt
+	*	1727084633	0
+	"	5771	39

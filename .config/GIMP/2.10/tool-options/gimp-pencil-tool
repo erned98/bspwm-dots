@@ -1,0 +1,11 @@
+# GIMP gimp-pencil-tool options
+
+(foreground (color-rgb 0.58823529411764708 0.16470588235294117 0.76470588235294112))
+(brush "2. Hardness 050")
+(dynamics "Dynamics Off")
+(gradient "Kolor pierwszoplanowy na kolor tła (RGB)")
+(palette "Historia kolorów")
+(brush-size 51)
+(brush-hardness 0.5)
+
+# end of gimp-pencil-tool options

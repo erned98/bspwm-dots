@@ -1,0 +1,8 @@
+configuration {
+display-drun: " ";
+display-run: " ";
+display-power-menu:" ";
+}
+
+@theme "/home/erne/.local/share/rofi/themes/squared-eos.rasi"
+
