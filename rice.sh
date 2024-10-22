@@ -7,6 +7,8 @@ yay -S ttf-jetbrains-mono-nerd skeuos-gtk flat-remix-git spicetify-cli shell-col
 
 cp -r .config ~
 cp -r .local ~
+cp -r .vim ~
+cp -r .mpd ~
 sudo cp -r usr /
 sudo cp -e etc /
 
