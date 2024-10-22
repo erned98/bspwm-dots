@@ -1,0 +1,41 @@
+{
+  "policies":{
+    "Extensions":{
+      "Install":[
+        "https://addons.mozilla.org/firefox/downloads/file/4289439/leechblock_ng-1.6.4.1.xpi", "https://addons.mozilla.org/firefox/downloads/file/4290466/ublock_origin-1.58.0.xpi"
+      ],
+      "Locked":[
+        "leechblockng@proginosko.com","uBlock0@raymondhill.net"
+      ]
+    },
+    "DNSOverHTTPS":{
+      "Enabled": true,
+      "ProviderURL": "https://dns.nextdns.io/e79bef/EndeavourOS",
+      "Locked": true,
+      "ExcludedDomains": ["tplinkrepeater.net"],
+      "Fallback": false
+    },
+    "BlockAboutConfig": false,
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxScreenshots": true,
+    "DisablePocket": true,
+    "DisableFirefoxAccounts": true,
+    "DisablePrivateBrowsing": true,
+    "DisableTelemetry": true,
+    "EnableTrackingProtection":{
+      "Value": true,
+      "Locked": true,
+      "Cryptomining": true,
+      "Fingerprinting": true
+    },
+    "HttpsOnlyMode": "enabled",
+    "PrintingEnabled": false,
+    "DisplayMenuBar": "never",
+    "TranslateEnabled": false,
+    "UserMessaging":{
+      "MoreFromMozilla": false,
+      "FirefoxLabs": false,
+      "Locked": true
+    }
+  }
+}

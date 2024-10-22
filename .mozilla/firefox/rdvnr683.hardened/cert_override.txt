@@ -1,0 +1,5 @@
+# PSM Certificate Override Settings file
+# This is a generated file!  Do not edit.
+url9752.tx.clips4sale.com:443:	OID.2.16.840.1.101.3.4.2.1	BE:00:53:E0:6F:9A:70:DE:89:0E:85:96:49:A2:BA:77:5C:E6:7D:99:8B:D6:64:2F:78:76:48:F3:6F:56:82:13	
+niggastolemybike.ytmnd.com:443:	OID.2.16.840.1.101.3.4.2.1	99:15:79:FB:BA:1A:7B:26:99:A9:68:33:89:06:15:CD:4C:92:66:14:22:F8:60:18:17:9B:AE:83:9D:4B:E9:06	
+poraj.pl:443:	OID.2.16.840.1.101.3.4.2.1	7B:32:57:1A:FF:5C:4F:57:3B:E3:BF:DB:FC:D7:15:59:A8:DF:93:21:6B:AA:50:19:B2:B4:D7:7D:B3:C1:8E:1D	
