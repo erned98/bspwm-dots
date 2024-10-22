@@ -1,3 +1,0 @@
-/submit/firefox-desktop/deletion-request/1/2cde26be-7ee5-4ec1-953a-72696b581635
-{"ping_info":{"seq":0,"start_time":"2024-10-18T09:50:02.971+02:00","end_time":"2024-10-18T09:50:02.973+02:00","reason":"at_init"},"client_info":{"telemetry_sdk_build":"60.5.0","locale":"pl","architecture":"x86_64","app_channel":"release","os":"Linux","os_version":"6.6","app_display_version":"131.0.2","app_build":"20241009122754","first_run_date":"2024-06-17+02:00","build_date":"1970-01-01T00:00:00+00:00","client_id":"048f7bbb-3dc1-4b8f-807a-6dfa2e295280"}}
-{"headers":{},"body_has_info_sections":true,"ping_name":"deletion-request"}
