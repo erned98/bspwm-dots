@@ -1,0 +1,12 @@
+color background            white       default
+color listnormal            white       default
+color listfocus             color15     color14 bold
+color listnormal_unread     color3      default bold
+color listfocus_unread      color3      color14 bold
+color title                 color15     color13 bold    underline
+color info                  color15     color13 bold
+color hint-key              color3      color13 bold
+color hint-keys-delimiter   color15     color13
+color hint-separator        color6      color13 bold
+color hint-description      color15     color13
+color article               white       default
