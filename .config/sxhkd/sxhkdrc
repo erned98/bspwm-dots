@@ -4,7 +4,11 @@
 # ╚════██║ ██╔██╗ ██╔══██║██╔═██╗ ██║  ██║██╔══██╗██║     
 # ███████║██╔╝ ██╗██║  ██║██║  ██╗██████╔╝██║  ██║╚██████╗
 # ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝
-                                                
+                                                   
+#
+# wm independent hotkeys
+#
+
 # 
 # ┌─┐┌─┐┌─┐┌─┐
 # ├─┤├─┘├─┘└─┐
@@ -23,10 +27,13 @@ super + @space
 super + shift + @space
     rofi -terminal kitty -show run
 
+# make sxhkd and bspwm reload their configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd && bspc wm -r
 
 # terminal apps
-super + {e,h,n,shift + n,p}
-	kitty -e {ranger,htop,newsboat -r,ncmpcpp,pulsemixer}
+super + {e,h,n,p,c,shift + n}
+	kitty -e {ranger,htop,ncmpcpp,pulsemixer,calcurse,newsboat -r}
 
 # GUI apps
 super + shift + {w,g,l,b,s}
@@ -39,10 +46,6 @@ super + shift + {w,g,l,b,s}
 #
 
 # CONTROLS
-
-# make sxhkd and bspwm reload their configuration files:
-super + Escape
-	pkill -USR1 -x sxhkd && bspc wm -r
 
 # quit/restart bspwm
 super + alt + {q,r}
