@@ -68,7 +68,7 @@ esac
 PENGUIN=🐧
 
 if [ "$color_prompt" = yes ]; then
-	PS1="\n${MAGENTA} \u${WHITE} at ${CYAN} \h${WHITE} in ${YELLOW}  \w\n${WHITE}  ${RESET}"
+	PS1="\n${MAGENTA} \u${WHITE} at ${CYAN} \h${WHITE} in ${YELLOW}  \w\n${GREEN}  ${RESET}"
 else
 	PS1="\n[\t] ${WHITE}\u${RESET} at ${WHITE}\h${RESET} in ${WHITE}\w\n${RESET}> "
 fi
