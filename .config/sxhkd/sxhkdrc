@@ -189,7 +189,7 @@ super + x
 #
 
 super + l
-    betterlockscreen -l blur --off 30
+    betterlockscreen -l dimblur --off 30
 
 # 
 # ┌─┐┌─┐┬─┐┌─┐┌─┐┌┐┌┌─┐┬ ┬┌─┐┌┬┐┌─┐

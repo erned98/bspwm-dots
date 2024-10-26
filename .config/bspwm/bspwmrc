@@ -36,6 +36,9 @@ bspc config split_ratio          0.5
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
+# bspc config top_padding          32     # comment out for a floating fanel
+
+
 # bspc config focused_border_color "#ff8a18"
 bspc config focused_border_color "#ffffff"
 bspc config normal_border_color "#1b1d24" 
