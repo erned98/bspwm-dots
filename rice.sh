@@ -1,9 +1,9 @@
 #! /bin/bash
 
 ## first, let's install some components
-yay -S ttf-jetbrains-mono-nerd skeuos-gtk flat-remix-git spicetify-cli shell-color-scripts-git
+yay -S ttf-jetbrains-mono-nerd ttf-roboto skeuos-gtk flat-remix-git spicetify-cli shell-color-scripts-git
 
-## now let's rice!
+## now, let's rice!
 
 cp -r .config ~
 cp -r .local ~
