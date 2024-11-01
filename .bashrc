@@ -116,7 +116,7 @@ alias ktrc='$EDITOR ~/.config/kitty/kitty.conf'
 alias ff='fastfetch'
 alias hello="notify-send 'Oh, hi! Nice to see you!' 'Remember to take regular breaks and drink water!' -i tux"
 alias btw="notify-send 'i use arch btw' -i /usr/share/icons/Flat-Remix-Orange-Dark/status/scalable/512/distributor-logo-archlinux.svg"
-alias pls='sudo'
+alias pls='sudo $(fc -ln -1)'
 
 ## Package manager
 # Pacman / Yay
