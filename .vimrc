@@ -94,6 +94,9 @@ set history=1000
 " Copy/paste
 set clipboard^=unnamed,unnamedplus
 
+" Text wrapping
+set wrap linebreak
+
 " }}}
 
 " KEYBINDINGS ----------------------------------------------------
