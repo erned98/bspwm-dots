@@ -1,16 +1,16 @@
 #! /bin/bash
 
 ## first, let's install some components
-yay -S ttf-jetbrains-mono-nerd ttf-roboto skeuos-gtk flat-remix-git spicetify-cli shell-color-scripts-git
+yay -S ttf-jetbrains-mono-nerd terminus-font ttf-roboto skeuos-gtk flat-remix spicetify-cli shell-color-scripts-git
 
 ## now, let's rice!
 
-cp -r .config ~
-cp -r .local ~
-cp -r .vim ~
-cp -r .mpd ~
-sudo cp -r usr /
-sudo cp -e etc /
+cp -rv .config ~
+cp -rv .local ~
+cp -rv .vim ~
+cp -rv .mpd ~
+sudo cp -rv usr /
+sudo cp -rv etc /
 
 for i in .bashrc .vimrc .viminfo
     do 
@@ -18,6 +18,6 @@ for i in .bashrc .vimrc .viminfo
         sudo ln -rsfv $i /root/~$i
     done
 
-spicetify backup apply enable-devtools
-spicetify config current_theme text
-spicetify config color_scheme FlatRemixEOS
+# spicetify backup apply enable-devtools
+# spicetify config current_theme text
+# spicetify config color_scheme FlatRemixEOS
