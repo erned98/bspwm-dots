@@ -1,3 +1,8 @@
+# some basic things
+max-items                   50
+browser                     firefox
+
+# colors
 color background            white       default
 color listnormal            white       default
 color listfocus             color15     color14 bold
@@ -10,3 +15,15 @@ color hint-keys-delimiter   color15     color13
 color hint-separator        color6      color13 bold
 color hint-description      color15     color13
 color article               white       default
+
+# formatting
+feedlist-title-format       "Your feeds (%u unread, %t total)%?T? - tag '%T'&?"
+articlelist-title-format    "Articles in feed '%T' (%u unread, %t total) - %U"
+searchresult-title-format   "Search result (%u unread, %t total)"
+filebrowser-title-format    "%?O?Open File&Save File? - %f"
+help-title-format           "Help"
+selecttag-title-format      "Select tag"
+selectfilter-title-format   "Select filter"
+itemview-title-format       "%T"
+urlview-title-format        "%T - URLs"
+dialogs-title-format        "%T - Dialogs"
