@@ -49,8 +49,8 @@ hi! link MatchParen	    Error
 
 hi! LineNr              ctermfg = 13
 hi! Cursor		        ctermfg = 0	    ctermbg = 0
-hi! CursorLine		    ctermfg = none	ctermbg = 236   cterm = bold
-hi! CursorLineNr	    ctermfg = 15	ctermbg = 236   cterm = bold
+hi! CursorLine		    ctermfg = none	ctermbg = 0   cterm = bold
+hi! CursorLineNr	    ctermfg = 3 	ctermbg = 0   cterm = bold
 hi! ColorColumn		    ctermfg = 13 	ctermbg = 0
 hi! CursorColumn	    ctermfg = none	ctermbg = 0
 

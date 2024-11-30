@@ -35,6 +35,7 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias pacman='pacman --color=auto'
+alias qalc='qalc -c'
 
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
@@ -101,16 +102,17 @@ alias rb='reboot'
 alias pwr='shutdown -h'
 
 # Dotfiles
-alias rc='$EDITOR ~/.bashrc'
 alias rld='clear && source ~/.bashrc'
 alias n='$EDITOR'
 alias sn='sudoedit'
 alias g.='cd ~/.config'
 alias gc='git clone'
+alias shrc='$EDITOR ~/.bashrc'
 alias wmrc='$EDITOR ~/.config/bspwm/bspwmrc'
 alias sxrc='$EDITOR ~/.config/sxhkd/sxhkdrc'
 alias pbrc='$EDITOR ~/.config/polybar/config.ini'
 alias ktrc='$EDITOR ~/.config/kitty/kitty.conf'
+alias drc='$EDITOR ~/.config/dunst/dunstrc'
 
 ## For the memes
 alias ff='fastfetch'
@@ -134,7 +136,8 @@ function newmonth() {
 	eos-rankmirrors --verbose
 	yay -Syyu
 	journalctl --vacuum-time=4weeks
-	paccache -ruk0
+	paccache -r
+    paccache -ruk0
 	yay -Rns $(pacman -Qdtq)
 }
 
@@ -146,3 +149,4 @@ function newmonth() {
 # alias Ss='nala search'
 # alias Q='apt list --installed | wc -l'
 # alias Qdtq='sudo nala autoremove --purge'
+

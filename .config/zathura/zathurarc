@@ -19,36 +19,36 @@ set guioptions ""
 
 # zathurarc-dark
 
-set font "JetBrainsMono Nerd Font 12"
-set default-bg "#1F2229" #00
+set font "JetBrainsMono Nerd Font 13"
+set default-bg "#0D0D0D" #00
 set default-fg "#FFFFFF" #01
 
 set statusbar-fg "#E6E6E6" #04
-set statusbar-bg "#1F2229" #01
+set statusbar-bg "#0D0D0D" #01
 
-set inputbar-bg "#1F2229" #00 currently not used
+set inputbar-bg "#0D0D0D" #00 currently not used
 set inputbar-fg "#FFFFFF" #02
 
 set notification-error-bg "#D41919" #08
 set notification-error-fg "#FFFFFF" #00
 
 set notification-warning-bg "#FF8A18" #08
-set notification-warning-fg "#1F2229" #00
+set notification-warning-fg "#0D0D0D" #00
 
 set highlight-color "#FF8A18" #0A
 set highlight-active-color "#49AEE6" #0D
 
-set completion-highlight-fg "#1F2229" #02
+set completion-highlight-fg "#0D0D0D" #02
 set completion-highlight-bg "#47D4B9" #0C
 
-set completion-bg "#1F2229" #02
+set completion-bg "#0D0D0D" #02
 set completion-fg "#FFFFFF" #0C
 
 set notification-bg "#49AEE6" #0B
-set notification-fg "#1F2229" #00
+set notification-fg "#0D0D0D" #00
 
 set recolor "true"
-set recolor-lightcolor "#1F2229" #00
+set recolor-lightcolor "#0D0D0D" #00
 set recolor-darkcolor "#FFFFFF" #06
 set recolor-reverse-video "true"
 set recolor-keephue "true"

@@ -1,7 +1,7 @@
 #! /bin/bash
 
 ## first, let's install some components
-yay -S ttf-jetbrains-mono-nerd terminus-font ttf-roboto skeuos-gtk flat-remix spicetify-cli shell-color-scripts-git
+yay -S ttf-jetbrains-mono-nerd terminus-font ttf-roboto flat-remix-gtk flat-remix spicetify-cli shell-color-scripts-git
 
 ## now, let's rice!
 
