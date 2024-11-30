@@ -7,7 +7,7 @@
 * {
     font:   "JetBrainsMono Nerd Font Medium 13";
 
-    bg0:     #23252e;
+    bg0:     #0d0d0d;
     bg1:     #323643;
     fg0:     #ffffff;
 
