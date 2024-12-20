@@ -28,18 +28,18 @@
     --font-family: 'Ubuntu Mono', monospace;
     --font-family: 'VT323', monospace;
     */
-    --font-size: 14px;
+    --font-size: 13.5px;
     --font-weight: 400; /* 200 : 900 */
     --line-height: 1.2;
 
     --font-size-lyrics: 14px; /* 1.5em (default) */
 
-    --font-family-header: "asciid";
+    --font-family-header: "JetBrainsMono Nerd Font";
     --font-size-multiplier-header: 4;
 
     --display-card-image: block; /* none | block */
     --display-coverart-image: none; /* none | block */
-    --display-header-image: none; /* none | block */
+    --display-header-image: block; /* none | block */
     --display-library-image: block; /* none | block */
     --display-tracklist-image: none; /* none | block */
     --display-spicetify-banner-ascii: block; /* none | block */

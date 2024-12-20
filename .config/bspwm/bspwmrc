@@ -76,7 +76,7 @@ bspc rule -a Spotify desktop='^4' follow=on
 
 xrandr -s 1920x1080 &
 redshift &
-picom -b &
+# picom -b &
 nitrogen --restore &
 ~/.config/polybar/launch.sh &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
