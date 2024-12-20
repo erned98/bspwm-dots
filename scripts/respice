@@ -1,0 +1,7 @@
+#! /bin/sh
+
+spicetufy backup apply
+spicetify restore backup
+spicetify config current_theme text
+spicetify config color_scheme FlatRemixEOS
+spicetify apply

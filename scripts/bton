@@ -1,0 +1,27 @@
+#! /bin/sh
+
+HEADPHONES='00:18:09:86:53:88'
+SPEAKER='B8:F6:53:F0:F8:BA'
+
+# turn that thing on
+sudo systemctl start bluetooth.service
+bluetoothctl power on
+bluetoothctl discoverable on
+bluetoothctl pairable on
+echo ""
+
+# let's connect!
+PS3='What would you like to connect? '
+options=("Headphones" "A speaker")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "Headphones")
+            bluetoothctl connect $HEADPHONES && exit
+            ;;
+        "A speaker")
+            bluetoothctl connect $SPEAKER && exit
+            ;;
+        *) echo "I don't know what that means.";;
+    esac
+done
