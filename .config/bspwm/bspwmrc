@@ -49,8 +49,6 @@ bspc config focused_border_color "#ffffff"
 # └┴┘┴┘└┘─┴┘└─┘└┴┘  ┴└─└─┘┴─┘└─┘└─┘
 #
 
-bspc config focus_follows_pointer true
-
 bspc rule -a gimp-2.10 desktop='^3' follow=on
 bspc rule -a firefox desktop='^2' follow=on
 bspc rule -a mplayer2 state=floating
