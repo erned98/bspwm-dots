@@ -49,7 +49,7 @@ while true; do
             
             # let's install basic apps
             echo -e '\e[1;96mInstalling basic applications...'
-            yay -S firefox feh ncmpcpp mpd mpc zathura zathura-pdf-mupdf ranger fastfetch mpv mplayer gvim timeshift scrot lxappearance-gtk3
+            yay -S firefox feh ncmpcpp mpd mpc zathura zathura-pdf-mupdf ranger fastfetch mpv mplayer gvim timeshift scrot lxappearance-gtk3 htop
 
             # let's install some additional apps
             echo -e '\e[1;96mInstalling user-defined applications...'
