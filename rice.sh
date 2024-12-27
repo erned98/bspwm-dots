@@ -21,3 +21,5 @@ for i in .bashrc .vimrc .viminfo
 # spicetify backup apply enable-devtools
 # spicetify config current_theme text
 # spicetify config color_scheme FlatRemixEOS
+
+exit
