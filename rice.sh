@@ -22,4 +22,5 @@ for i in .bashrc .vimrc .viminfo
 # spicetify config current_theme text
 # spicetify config color_scheme FlatRemixEOS
 
+sudo systemctl enable ly.service
 exit
