@@ -23,19 +23,19 @@ while true; do
             do
                 case $opt in
                     "Intel")
-                        yay -S xorg xorg-xinit kitty bspwm sxhkd nitrogen picom rofi rofi-power-menu dunst polybar xf86-video-intel polkit-gnome
+                        yay -S xorg xorg-xinit kitty bspwm sxhkd nitrogen picom rofi rofi-power-menu dunst polybar xf86-video-intel polkit-gnome && break
                         ;;
                     "AMD")
-                        yay -S xorg xorg-xinit kitty bspwm sxhkd nitrogen picom rofi rofi-power-menu dunst polybar xf86-video-amdgpu polkit-gnome
+                        yay -S xorg xorg-xinit kitty bspwm sxhkd nitrogen picom rofi rofi-power-menu dunst polybar xf86-video-amdgpu polkit-gnome && break
                         ;;
                     "Nvidia")
-                        yay -S xorg xorg-xinit kitty bspwm sxhkd nitrogen picom rofi rofi-power-menu dunst polybar nvidia nvidia-utils polkit-gnome
+                        yay -S xorg xorg-xinit kitty bspwm sxhkd nitrogen picom rofi rofi-power-menu dunst polybar nvidia nvidia-utils polkit-gnome && break
                         ;;
                     "QXL")
-                        yay -S xorg xorg-xinit kitty bspwm sxhkd nitrogen picom rofi rofi-power-menu dunst polybar xf86-video-qxl polkit-gnome
+                        yay -S xorg xorg-xinit kitty bspwm sxhkd nitrogen picom rofi rofi-power-menu dunst polybar xf86-video-qxl polkit-gnome && break
                         ;;
                     "VMWare")
-                        yay -S xorg xorg-xinit kitty bspwm sxhkd nitrogen picom rofi rofi-power-menu dunst polybar xf86-video-vmware polkit-gnome
+                        yay -S xorg xorg-xinit kitty bspwm sxhkd nitrogen picom rofi rofi-power-menu dunst polybar xf86-video-vmware polkit-gnome && break
                         ;;
                     "Abort")
                         echo -e '\e[1;31mInstallation aborted.' ; exit
@@ -49,14 +49,14 @@ while true; do
             
             # let's install basic apps
             echo -e '\e[1;96mInstalling basic applications...'
-            yay -S firefox feh ncmpcpp mpd mpc zathura zathura-pdf-mupdf ranger fastfetch mpv mplayer gvim timeshift timeshift-autosnap scrot
+            yay -S firefox feh ncmpcpp mpd mpc zathura zathura-pdf-mupdf ranger fastfetch mpv mplayer gvim timeshift scrot
 
             # let's install some additional apps
             echo -e '\e[1;96mInstalling user-defined applications...'
             yay -S android-tools libreoffice-fresh qalculate-gtk spotify-launcher calcurse newsboat redshift mp3gain ffmpeg gimp audacity
             
             # now, let's rice!
-            echo -e '\e[1;32mThe installation has completed. \e[1;97mNow, run the script rice.sh to start applying customisations to your desktop.\e[0m'
+            echo -e '\e[1;32mThe installation has completed. \e[1;97mNow, run the script rice.sh to start applying customisations to your desktop.\e[0m' ; exit
             ;;
         [no]* ) echo -e '\e[1;91mInstallation aborted.' ; exit;;
         * ) echo "Please answer yes or no.";;
