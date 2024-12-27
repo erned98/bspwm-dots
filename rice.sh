@@ -1,7 +1,7 @@
 #! /bin/bash
 
 ## first, let's install some components
-yay -S ttf-jetbrains-mono-nerd terminus-font ttf-roboto flat-remix-gtk flat-remix spicetify-cli shell-color-scripts-git
+yay -S ttf-jetbrains-mono-nerd terminus-font flat-remix-gtk flat-remix spicetify-cli shell-color-scripts-git
 
 ## now, let's rice!
 
@@ -22,5 +22,5 @@ for i in .bashrc .vimrc .viminfo
 # spicetify config current_theme text
 # spicetify config color_scheme FlatRemixEOS
 
-sudo systemctl enable ly.service
+echo -e '\e[1;32mThe ricing has completed. \e[1;97mYou can reboot now. Have fun using your system!\e[0m'
 exit
