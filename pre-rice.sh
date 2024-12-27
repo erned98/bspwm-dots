@@ -54,6 +54,10 @@ while true; do
             # let's install some additional apps
             echo -e '\e[1;96mInstalling user-defined applications...'
             yay -S android-tools libreoffice-fresh qalculate-gtk spotify-launcher calcurse newsboat redshift mp3gain ffmpeg gimp audacity
+
+            # let's turn on some services
+            sudo systemctl enable ly.service
+            sudo systemctl enable ufw.service
             
             # now, let's rice!
             echo -e '\e[1;32mThe installation has completed. \e[1;97mNow, run the script rice.sh to start applying customisations to your desktop.\e[0m' ; exit
