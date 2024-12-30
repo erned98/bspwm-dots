@@ -23,6 +23,7 @@
 export BROWSER="firefox"
 export EDITOR="vim"
 export VISUAL="vim"
+export SUDO_EDITOR="vim"
 
 # 
 # ┌─┐┌─┐┌─┐┌┬┐┬ ┬┌─┐┌┬┐┬┌─┐┌─┐
@@ -77,6 +78,8 @@ fi
 # Start with a colourscript
 if [ "$color_prompt" = yes ]; then
 	colorscript -r
+else
+    setfont ter-u32n
 fi
 
 # 
@@ -93,7 +96,7 @@ alias ....='cd ../../../..'
 alias .....='cd ../../../../..'
 alias h='cd ~'
 alias ls='ls -lah --color=auto --group-directories-first'
-alias df='df -h'
+alias df='df -h -x tmpfs'
 alias free='free -h'
 alias ping='ping -c 20'
 alias qalc='qalc -c'
@@ -119,6 +122,11 @@ alias ff='fastfetch'
 alias hello="notify-send 'Oh, hi! Nice to see you!' 'Remember to take regular breaks and drink water!' -i tux"
 alias btw="notify-send 'i use arch btw' -i /usr/share/icons/Flat-Remix-Orange-Dark/status/scalable/512/distributor-logo-archlinux.svg"
 alias pls='sudo $(fc -ln -1)'
+
+## Scripts
+alias bton='sh Scripts/bton'
+alias rsp='sh Scripts/respice'
+alias wttr='sh Scripts/wttr'
 
 ## Package manager
 # Pacman / Yay

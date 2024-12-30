@@ -9,6 +9,8 @@ cp -rv .config ~
 cp -rv .local ~
 cp -rv .vim ~
 cp -rv .mpd ~
+cp -rv scripts ~/Scripts
+mkdir -pv ~/Screenshots
 sudo cp -rv usr /
 sudo cp -rv etc /
 

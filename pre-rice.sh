@@ -12,11 +12,10 @@ while true; do
             sudo reflector --protocol https --verbose --latest 25 --sort rate --save /etc/pacman.d/mirrorlist
             eos-rankmirrors --verbose       # comment out if you don't use EndeavourOS
             yay -Syyu
-            
+
             ## now, let's install!
-            
             # let's install graphical environment
-            echo -e '\e[1;96mInstalling basic graphical environment...'
+            echo -e '\e[1;96mInstalling basic graphical environment...\e[0m'
             PS3='Please choose your video drivers: '
             options=("Intel" "AMD" "Nvidia" "QXL" "Abort")
             select opt in "${options[@]}"
@@ -45,6 +44,7 @@ while true; do
             done
 
             # let's install other under-the-hood utilities
+            echo -e '\e[1;96mInstalling under-the-hood utilities...'
             yay -S pulsemixer ly betterlockscreen pipewire pipewire-pulse pipewire-alsa pipewire-jack ufw
             
             # let's install basic apps
@@ -66,5 +66,4 @@ while true; do
         * ) echo "Please answer yes or no.";;
     esac
 done
-
 

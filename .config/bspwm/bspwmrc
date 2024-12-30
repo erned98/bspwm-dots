@@ -67,6 +67,7 @@ bspc rule -a Butt_FLTK state=floating
 bspc rule -a Zathura desktop='^5' follow=on
 bspc rule -a Yad-icon-browser state=floating
 bspc rule -a Spotify desktop='^4' follow=on
+bspc rule -a MPlayer desktop='^3' state=fullscreen follow=on
 
 # 
 # ┌─┐┬ ┬┌┬┐┌─┐┌─┐┌┬┐┌─┐┬─┐┌┬┐
@@ -74,11 +75,14 @@ bspc rule -a Spotify desktop='^4' follow=on
 # ┴ ┴└─┘ ┴ └─┘└─┘ ┴ ┴ ┴┴└─ ┴ 
 # 
 
+xinput set-prop 13 309 1 &
 xrandr -s 1920x1080 &
 redshift &
-# picom -b &
+picom -b &
 nitrogen --restore &
 ~/.config/polybar/launch.sh &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 xsetroot -cursor_name left_ptr &
 dunst -c ~/.config/dunst/dunstrc &
+xset -dpms &
+xset s off 
