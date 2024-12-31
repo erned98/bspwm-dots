@@ -1,0 +1,19 @@
+#! /bin/sh
+
+# give me your location
+echo -e "\n\e[1;36mWhere are you?\e[0m\n"
+
+read -p 'Location: ' location
+
+# let's check
+
+# format in which the weather will be presented:
+#
+# <icon> <description, temperature>
+# Feels like: <perceived temperature>
+# Precipitation: <rain amount in mm>
+# Pressure: <value in hPa>
+# Wind: <direction and speed value>
+
+curl wttr.in/${location}?format="\n%c+%C+%t\n"Feels%20like:"+%f\n"Precipitation:%20"%p\n"Pressure:%20"%P\n"Wind:%20"%w"
+echo

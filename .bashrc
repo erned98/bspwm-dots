@@ -130,14 +130,14 @@ alias wttr='sh Scripts/wttr'
 
 ## Package manager
 # Pacman / Yay
-alias S='yay -S'
-alias Syu='yay'
-alias Rn='yay -Rn'
-alias Rns='yay -Rns'
-alias Ss='yay -Ss'
-alias Q='pacman -Q'
-alias Ql='pacman -Q | wc -l'
-alias Qdtq='yay -Rns $(pacman -Qdtq)'
+alias s='yay -S'
+alias syu='yay'
+alias rn='yay -Rn'
+alias rns='yay -Rns'
+alias ss='yay -Ss'
+alias q='pacman -Q'
+alias ql='pacman -Q | wc -l'
+alias qdtq='yay -Rns $(pacman -Qdtq)'
 
 function newmonth() {
 	sudo reflector --protocol https --verbose --latest 25 --sort rate --save /etc/pacman.d/mirrorlist
@@ -150,11 +150,11 @@ function newmonth() {
 }
 
 ## APT / Nala
-# alias S='sudo nala install'
-# alias Syu='sudo nala upgrade'
-# alias Rn='sudo nala purge'
-# alias Rns='sudo nala purge --autoremove'
-# alias Ss='nala search'
-# alias Q='apt list --installed | wc -l'
-# alias Qdtq='sudo nala autoremove --purge'
+# alias s='sudo nala install'
+# alias syu='sudo nala upgrade'
+# alias rn='sudo nala purge'
+# alias rns='sudo nala purge --autoremove'
+# alias ss='nala search'
+# alias q='apt list --installed | wc -l'
+# alias qdtq='sudo nala autoremove --purge'
 
