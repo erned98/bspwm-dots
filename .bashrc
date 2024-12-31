@@ -135,7 +135,7 @@ alias syu='yay'
 alias rn='yay -Rn'
 alias rns='yay -Rns'
 alias ss='yay -Ss'
-alias q='pacman -Q'
+alias Q='pacman -Q'
 alias ql='pacman -Q | wc -l'
 alias qdtq='yay -Rns $(pacman -Qdtq)'
 
@@ -155,6 +155,6 @@ function newmonth() {
 # alias rn='sudo nala purge'
 # alias rns='sudo nala purge --autoremove'
 # alias ss='nala search'
-# alias q='apt list --installed | wc -l'
+# alias Q='apt list --installed | wc -l'
 # alias qdtq='sudo nala autoremove --purge'
 
