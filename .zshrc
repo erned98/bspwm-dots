@@ -13,7 +13,7 @@
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-bindkey -v
+bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/erne/.zshrc'
@@ -21,6 +21,9 @@ zstyle :compinstall filename '/home/erne/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
+bindkey '^[[1;5D' backward-word
+bindkey '^[[1;5C' forward-word
 
 # 
 # ┌┬┐┌─┐┌─┐┌─┐┬ ┬┬ ┌┬┐┌─┐
@@ -56,6 +59,7 @@ export LESS_TERMCAP_us=$'\e[1;4;31m'
 
 export MANROFFOPT=-c
 
+# Syntax highlighting and autosuggesting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -139,6 +143,7 @@ alias pls='sudo $(fc -ln -1)'
 alias bton='sh ~/Scripts/bton'
 alias rsp='sh ~/Scripts/respice'
 alias wttr='sh ~/Scripts/wttr'
+alias newmonth='sh ~/Scripts/newmonth'
 
 ## Package manager
 # Pacman / Yay
@@ -150,16 +155,6 @@ alias ss='yay -Ss'
 alias Q='pacman -Q'
 alias ql='pacman -Q | wc -l'
 alias qdtq='yay -Rns $(pacman -Qdtq)'
-
-function newmonth() {
-	sudo reflector --protocol https --verbose --latest 25 --sort rate --save /etc/pacman.d/mirrorlist
-	eos-rankmirrors --verbose
-	yay -Syyu
-	journalctl --vacuum-time=4weeks
-	paccache -r
-    paccache -ruk0
-	yay -Rns $(pacman -Qdtq)
-}
 
 ## APT / Nala
 # alias s='sudo nala install'
