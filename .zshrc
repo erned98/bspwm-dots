@@ -1,18 +1,26 @@
-#    ██████╗  █████╗ ███████╗██╗  ██╗██████╗  ██████╗
-#    ██╔══██╗██╔══██╗██╔════╝██║  ██║██╔══██╗██╔════╝
-#    ██████╔╝███████║███████╗███████║██████╔╝██║     
-#    ██╔══██╗██╔══██║╚════██║██╔══██║██╔══██╗██║     
-# ██╗██████╔╝██║  ██║███████║██║  ██║██║  ██║╚██████╗
-# ╚═╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
-#                                                 
-# ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-# for examples
-#
-# Ligatures test: ---> => www. 
+# 
+# 
+#    ███████╗███████╗██╗  ██╗██████╗  ██████╗
+#    ╚══███╔╝██╔════╝██║  ██║██╔══██╗██╔════╝
+#      ███╔╝ ███████╗███████║██████╔╝██║     
+#     ███╔╝  ╚════██║██╔══██║██╔══██╗██║     
+# ██╗███████╗███████║██║  ██║██║  ██║╚██████╗
+# ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
+#                                            
+# 
 
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+bindkey -v
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/erne/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
 
 # 
 # ┌┬┐┌─┐┌─┐┌─┐┬ ┬┬ ┌┬┐┌─┐
@@ -48,6 +56,9 @@ export LESS_TERMCAP_us=$'\e[1;4;31m'
 
 export MANROFFOPT=-c
 
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # Set the colours
 BLACK="\\[\\e[1;30m\\]"
 RED="\\[\\e[1;31m\\]"
@@ -70,9 +81,9 @@ esac
 PENGUIN=🐧
 
 if [ "$color_prompt" = yes ]; then
-	PS1="\n${MAGENTA} \u${WHITE} at ${CYAN} \h${WHITE} in ${YELLOW}  \w\n${GREEN}  ${RESET}"
+	PS1=$'%{\n%B%F{magenta}%} %n%F{white} at %F{cyan} %m%F{white} in %F{yellow}  %~\n%F{white}  %b%f'
 else
-	PS1="\n[\t] ${WHITE}\u${RESET} at ${WHITE}\h${RESET} in ${WHITE}\w\n${RESET}> "
+	PS1=$'\n[%D{%H:%M}] %B%F{white}%n%f%b at %B%F{white}%m%f%b in %B%F{white}%~\n%f%b> '
 fi
 
 # Start with a colourscript
@@ -106,12 +117,12 @@ alias rb='reboot'
 alias pwr='shutdown -h'
 
 # Dotfiles
-alias rld='clear && source ~/.bashrc'
+alias rld='clear && source ~/.zshrc'
 alias n='$EDITOR'
 alias sn='sudoedit'
 alias g.='cd ~/.config'
 alias gc='git clone'
-alias shrc='$EDITOR ~/.bashrc'
+alias shrc='$EDITOR ~/.zshrc'
 alias wmrc='$EDITOR ~/.config/bspwm/bspwmrc'
 alias sxrc='$EDITOR ~/.config/sxhkd/sxhkdrc'
 alias pbrc='$EDITOR ~/.config/polybar/config.ini'
