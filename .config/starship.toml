@@ -1,21 +1,49 @@
+# 
+# ███████╗████████╗ █████╗ ██████╗ ███████╗██╗  ██╗██╗██████╗ 
+# ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔════╝██║  ██║██║██╔══██╗
+# ███████╗   ██║   ███████║██████╔╝███████╗███████║██║██████╔╝
+# ╚════██║   ██║   ██╔══██║██╔══██╗╚════██║██╔══██║██║██╔═══╝ 
+# ███████║   ██║   ██║  ██║██║  ██║███████║██║  ██║██║██║     
+# ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝     
+#                                                             
+
+# format = '''
+# $username$directory$git_branch$cmd_duration
+# $character'''
+
+[username]
+style_user = 'bold purple'
+style_root = 'bold bright-red'
+format = '[]($style) [$user]($style) in '
+
 [character]
-success_symbol = '[ ](bold cyan)'
+success_symbol = '[ ](bold green)'
 error_symbol = '[ ](bold red)'
 
 [directory]
-style = 'bold purple'
-truncation_length = 3
+style = 'bold italic purple'
+truncation_length = 5
+truncation_symbol = ''
 truncate_to_repo = true
 read_only = '  '
-read_only_style = 'bold bright-yellow'
+read_only_style = 'bold bright-cyan'
 home_symbol = '~'
 repo_root_format = '[$path]($style)[$read_only]($read_only_style) '
 
 [cmd_duration]
-min_time = 500
+min_time = 1000
 format = 'took [$duration](bold italic bright-yellow)' 
 
-# SYMBOLS
+[sudo]
+disabled = false
+format = '  '
+style = 'bold bright-yellow'
+
+# 
+# ┌─┐┬ ┬┌┬┐┌┐ ┌─┐┬  ┌─┐
+# └─┐└┬┘│││├┴┐│ ││  └─┐
+# └─┘ ┴ ┴ ┴└─┘└─┘┴─┘└─┘
+#
 
 [aws]
 symbol = "  "
@@ -55,10 +83,13 @@ symbol = " "
 
 [git_branch]
 symbol = " "
-style = 'bold bright-yellow'
+style = 'bold italic bright-cyan'
 
 [git_commit]
 tag_symbol = '  '
+
+[git_status]
+style = 'bold italic bright-yellow'
 
 [golang]
 symbol = " "
@@ -169,6 +200,8 @@ symbol = " "
 
 [python]
 symbol = " "
+style = 'bold italic bright-cyan'
+detect_extensions = ["py"]
 
 [rlang]
 symbol = "󰟔 "
