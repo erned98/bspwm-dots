@@ -22,18 +22,18 @@
     ### Geometry ###
 
     # dynamic width from 0 to 300
-    width = (0, 800)
+    width = (200, 600)
     # constant width of 300
     # width = 300
 
     # The maximum height of a single notification, excluding the frame.
-    height = 150
+    height = (50, 300)
 
     # Position the notification in the top right corner
     origin = top-right
 
     # Offset from the origin
-    offset = 15x52
+    offset = 12x49
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -87,7 +87,7 @@
     # notifications.
     # Set to 0 to disable.
     # If gap_size is greater than 0, this setting will be ignored.
-    separator_height = 2
+    separator_height = 3
 
     # Padding between text and separator.
     padding = 8
@@ -103,13 +103,13 @@
     frame_width = 3
 
     # Defines color of the frame around the notification window.
-    frame_color = "#962ac3"
+    frame_color = "#9855b3"
 
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
     # of size frame_width will be drawn around each notification instead.
     # Click events on gaps do not currently propagate to applications below.
-    gap_size = 12
+    gap_size = 0
 
     # Define a color for the separator.
     # possible values are:

@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 ## first, let's install some components
 yay -S ttf-jetbrains-mono-nerd terminus-font flat-remix-gtk flat-remix spicetify-cli shell-color-scripts-git

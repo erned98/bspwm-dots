@@ -5,7 +5,7 @@ display_on=0
 span_image=true
 lock_timeout=300
 fx_list=(dim blur dimblur pixel dimpixel color)
-dim_level=50
+dim_level=75
 blur_level=1
 pixel_scale=5,5
 solid_color=1b1d24
@@ -13,12 +13,12 @@ wallpaper_cmd="feh --bg-fill"
 quiet=false
 
 # default theme
-loginbox=001f2229
+loginbox=000d0d0d
 loginshadow=00000000
-locktext="Type password to unlock..."
+locktext="validate yourself..."
 font="JetBrainsMono Nerd Font"
-font_size=26
-font_size_small=13
+font_size=48
+font_size_small=11.75
 ringcolor=ffffffff
 insidecolor=00000000
 separatorcolor=00000000

@@ -19,11 +19,16 @@
 #  ││├┤ ├┤ ├─┤│ ││  │ └─┐
 # ─┴┘└─┘└  ┴ ┴└─┘┴─┘┴ └─┘
 # 
+if [[ $(tty) =~ /dev/tty ]]; then 
+    export BROWSER="w3m"
+else
+    export BROWSER="firefox"
+fi
 
-export BROWSER="firefox"
 export EDITOR="vim"
 export VISUAL="vim"
 export SUDO_EDITOR="vim"
+export DIFFPROG="colordiff"
 
 # 
 # ┌─┐┌─┐┌─┐┌┬┐┬ ┬┌─┐┌┬┐┬┌─┐┌─┐
@@ -60,6 +65,7 @@ WHITE="\\[\\e[1;97m\\]"
 YELLOWBG="\\[\\e[43m\\]"
 REDBG="\\[\\e[101m\\]"
 WHITEBG="\\[\\e[107m\\]"
+BOLD="\\[\\e[1m\\]"
 RESET="\\[\\e[0m\\]"
 
 # Set a fancy prompt
@@ -69,17 +75,11 @@ esac
 
 PENGUIN=🐧
 
-if [ "$color_prompt" = yes ]; then
-	PS1="\n${MAGENTA} \u${WHITE} at ${CYAN} \h${WHITE} in ${YELLOW}  \w\n${GREEN}  ${RESET}"
-else
-	PS1="\n[\t] ${WHITE}\u${RESET} at ${WHITE}\h${RESET} in ${WHITE}\w\n${RESET}> "
-fi
+PS1="\n[\t] ${BOLD}\u${RESET} at ${BOLD}\h${RESET} in ${BOLD}\w\n${RESET}> "
 
-# Start with a colourscript
-if [ "$color_prompt" = yes ]; then
-	colorscript -r
-else
-    setfont ter-u32n
+# Start with a bigger font when in tty
+if [[ $(tty) =~ /dev/tty ]]; then
+    setfont ter-232n
 fi
 
 # 
@@ -88,7 +88,7 @@ fi
 # ┴ ┴┴─┘┴┴ ┴└─┘└─┘└─┘
 #
 
-# Basic
+## Basic
 alias .='cd ..'
 alias ..='cd ../..'
 alias ...='cd ../../..'
@@ -99,13 +99,12 @@ alias ls='ls -lah --color=auto --group-directories-first'
 alias df='df -h -x tmpfs'
 alias free='free -h'
 alias mkdir='mkdir -p'
-alias ping='ping -c 20'
-alias qalc='qalc -c'
+alias wiki='wikiman -q'
 alias q='exit'
 alias rb='reboot'
 alias pwr='shutdown -h'
 
-# Dotfiles
+## Dotfiles
 alias rld='clear && source ~/.bashrc'
 alias n='$EDITOR'
 alias sn='sudoedit'
@@ -118,8 +117,13 @@ alias pbrc='$EDITOR ~/.config/polybar/config.ini'
 alias ktrc='$EDITOR ~/.config/kitty/kitty.conf'
 alias drc='$EDITOR ~/.config/dunst/dunstrc'
 
+## Productivity
+alias rec='ffmpeg -video_size 1920x1080 -framerate 25 -f x11grab -i :0.0 ~/Videos/Screencasts/rec-$(date +%y%m%d%H%M).mp4'
+alias ping='ping -c 20'
+
 ## For the memes
-alias ff='echo && fastfetch'
+alias fetch='echo && fastfetch'
+alias clr='colorscript -e blocks1'
 alias hello="notify-send 'Oh, hi! Nice to see you!' 'Remember to take regular breaks and drink water!' -i tux"
 alias btw="notify-send 'i use arch btw' -i /usr/share/icons/Flat-Remix-Orange-Dark/status/scalable/512/distributor-logo-archlinux.svg"
 alias pls='sudo $(fc -ln -1)'
@@ -128,27 +132,60 @@ alias pls='sudo $(fc -ln -1)'
 alias bton='sh ~/Scripts/bton'
 alias rsp='sh ~/Scripts/respice'
 alias wttr='sh ~/Scripts/wttr'
+alias newmonth='sh ~/Scripts/newmonth'
+alias detox='sh ~/Scripts/dnsdetox'
 
-## Package manager
+## Archive extraction
+function ex {
+ if [ -z "$1" ]; then
+    # display usage if no parameters given
+    echo "Usage: ex <path/file_name>.<zip|rar|bz2|gz|tar|tbz2|tgz|Z|7z|xz|ex|tar.bz2|tar.gz|tar.xz>"
+    echo "       extract <path/file_name_1.ext> [path/file_name_2.ext] [path/file_name_3.ext]"
+ else
+    for n in "$@"
+    do
+      if [ -f "$n" ] ; then
+          case "${n%,}" in
+            *.cbt|*.tar.bz2|*.tar.gz|*.tar.xz|*.tbz2|*.tgz|*.txz|*.tar)
+                         tar xvf "$n"       ;;
+            *.lzma)      unlzma ./"$n"      ;;
+            *.bz2)       bunzip2 ./"$n"     ;;
+            *.cbr|*.rar)       unrar x -ad ./"$n" ;;
+            *.gz)        gunzip ./"$n"      ;;
+            *.cbz|*.epub|*.zip)       unzip ./"$n"       ;;
+            *.z)         uncompress ./"$n"  ;;
+            *.7z|*.arj|*.cab|*.cb7|*.chm|*.deb|*.dmg|*.iso|*.lzh|*.msi|*.pkg|*.rpm|*.udf|*.wim|*.xar)
+                         7z x ./"$n"        ;;
+            *.xz)        unxz ./"$n"        ;;
+            *.exe)       cabextract ./"$n"  ;;
+            *.cpio)      cpio -id < ./"$n"  ;;
+            *.cba|*.ace)      unace x ./"$n"      ;;
+            *)
+                         echo "ex: '$n' - unknown archive method"
+                         return 1
+                         ;;
+          esac
+      else
+          echo "'$n' - file does not exist"
+          return 1
+      fi
+    done
+fi
+}
+
+## Package management
 # Pacman / Yay
 alias s='yay -S'
-alias syu='yay'
+alias syu='yay -Syu'
 alias rn='yay -Rn'
 alias rns='yay -Rns'
 alias ss='yay -Ss'
+alias pw='yay -Pw'
+alias pww='yay -Pww'
 alias Q='pacman -Q'
 alias ql='pacman -Q | wc -l'
+alias si='pacman -Si'
 alias qdtq='yay -Rns $(pacman -Qdtq)'
-
-function newmonth() {
-	sudo reflector --protocol https --verbose --latest 25 --sort rate --save /etc/pacman.d/mirrorlist
-	eos-rankmirrors --verbose
-	yay -Syyu
-	journalctl --vacuum-time=4weeks
-	paccache -r
-    paccache -ruk0
-	yay -Rns $(pacman -Qdtq)
-}
 
 ## APT / Nala
 # alias s='sudo nala install'

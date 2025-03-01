@@ -27,17 +27,13 @@ super + @space
 super + shift + @space
     rofi -terminal kitty -show run
 
-# make sxhkd and bspwm reload their configuration files:
-super + Escape
-	pkill -USR1 -x sxhkd && bspc wm -r
-
 # terminal apps
-super + {e,h,n,p,c,shift + n}
+super + {e,h,m,p,c,shift + w}
 	kitty -e {ranger,htop,ncmpcpp,pulsemixer,calcurse,newsboat -r}
 
 # GUI apps
-super + shift + {w,g,l,b,s}
-	{firefox,gimp,libreoffice,butt,spotify-launcher}
+super + shift + {b,g,s,l}
+	{firefox,gimp,spotify-launcher,libreoffice}
 
 # 
 # ┌┐ ┌─┐┌─┐┬ ┬┌┬┐
@@ -47,6 +43,10 @@ super + shift + {w,g,l,b,s}
 
 # CONTROLS
 
+# make sxhkd and bspwm reload their configuration files:
+super + Escape
+	killall redshift && pkill -USR1 -x sxhkd && bspc wm -r
+
 # quit/restart bspwm
 super + alt + {q,r}
 	bspc {quit,wm -r}
@@ -55,9 +55,13 @@ super + alt + {q,r}
 super + {_,shift + }q
 	bspc node -{c,k}
 
+# change wallpaper
+# super + alt + w
+#     feh --bg-fill --randomize /usr/share/backgrounds/dt
+
 # alternate between the tiled and monocle layout
-super + m
-	bspc desktop -l next
+# super + m
+#	bspc desktop -l next
 
 # send the newest marked node to the newest preselected node
 super + y
@@ -174,12 +178,12 @@ XF86AudioMute
 # └─┘┴└─┴└─┘┴ ┴ ┴ ┘└┘└─┘└─┘└─┘
 #
 
-# brightness up
-Cancel
+# brightness down
+XF86MonBrightnessDown
     xbacklight -dec 10
 
-# brightness down
-XF86Forward
+# brightness up
+XF86MonBrightnessUp
     xbacklight -inc 10
 
 # 
@@ -189,7 +193,7 @@ XF86Forward
 # 
 
 super + x
-	rofi -show power-menu -modi power-menu:rofi-power-menu
+	rofi -show power-menu -modi power-menu:'rofi-power-menu --no-symbols' 
 
 # 
 # ┬  ┌─┐┌─┐┬┌─┌─┐┌─┐┬─┐┌─┐┌─┐┌┐┌
@@ -198,7 +202,7 @@ super + x
 #
 
 super + l
-    betterlockscreen -l dimblur --off 30
+    betterlockscreen -l dimblur
 
 # 
 # ┌─┐┌─┐┬─┐┌─┐┌─┐┌┐┌┌─┐┬ ┬┌─┐┌┬┐┌─┐
@@ -207,7 +211,12 @@ super + l
 #
 
 @Print
-    scrot ~/Obrazy/Screenshots/%Y-%m-%d-%T-screenshot.png && notify-send 'A screenshot has been made.' 'You can find it in your screenshots directory.' -i org.xfce.screenshooter
+    scrot -d 3 ~/Pictures/Screenshots/%Y-%m-%d-%T-screenshot.png && notify-send 'A screenshot has been made.' 'You can find it in your screenshots directory.' -i org.xfce.screenshooter
 
 shift + @Print
-    scrot -s ~/Obrazy/Screenshots/%Y-%m-%d-%T-screenshot.png && notify-send 'A selected screenshot has been made.' 'You can find it in your screenshots directory.' -i org.xfce.screenshooter
+    scrot -s -d 3 ~/Pictures/Screenshots/%Y-%m-%d-%T-screenshot.png && notify-send 'A selected screenshot has been made.' 'You can find it in your screenshots directory.' -i org.xfce.screenshooter
+
+# HELP
+super + F1
+    kitty -e bat --theme base16 ~/help.md
+

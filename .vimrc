@@ -46,7 +46,7 @@ filetype indent on
 syntax on
 
 " Add numbers to each line on the left-hand side.
-set number
+set number relativenumber
 
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
@@ -64,7 +64,7 @@ set expandtab
 set nobackup
 
 " Do not let cursor scroll below or above N number of lines when scrolling.
-set scrolloff=10
+set scrolloff=18
 
 " While searching though a file incrementally highlight matching characters as you type.
 set incsearch
@@ -111,7 +111,7 @@ set wrap linebreak
 set statusline=
 
 " Status line left side.
-set statusline+=\ 󰈔\ %F\ %m\ %Y\ %R
+set statusline+=\ 󰈔\ %F\ %m\ (%Y)\ %R
 
 " Use a divider to separate the left side from the right side.
 set statusline+=%=
