@@ -10,7 +10,8 @@ cp -rv .local ~
 cp -rv .vim ~
 cp -rv .mpd ~
 cp -rv scripts ~/Scripts
-mkdir -pv ~/Screenshots
+cp -rv Pictures ~/Pictures
+mkdir -pv ~/Pictures/Screenshots
 sudo cp -rv usr /
 sudo cp -rv etc /
 
