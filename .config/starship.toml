@@ -89,7 +89,7 @@ style = 'bold italic bright-cyan'
 tag_symbol = '  '
 
 [git_status]
-style = 'bold italic bright-yellow'
+style = 'bold bright-yellow'
 
 [golang]
 symbol = " "
