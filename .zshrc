@@ -44,7 +44,7 @@ zstyle ':completion:*:default' list-colors ma=0\;15
 if [[ $(tty) =~ /dev/tty ]]; then
     export BROWSER="w3m"
 else
-    export BROWSER="firefox"
+    export BROWSER="librewolf"
 fi
 
 export EDITOR="vim"
