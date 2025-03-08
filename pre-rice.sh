@@ -53,7 +53,7 @@ while true; do
 
             # let's install some additional apps
             echo -e '\n\e[1;96mInstalling user-defined applications...'
-            yay -S --noconfirm firefox android-tools antiword qalculate-gtk spotify-launcher calcurse newsboat redshift mp3gain ffmpeg gimp
+            yay -S --noconfirm librewolf-bin android-tools antiword qalculate-gtk spotify-launcher calcurse newsboat redshift mp3gain ffmpeg gimp
             
             # let's turn on some services
             sudo systemctl enable ly.service
