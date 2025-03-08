@@ -33,7 +33,7 @@ super + {e,h,m,p,c,shift + w}
 
 # GUI apps
 super + shift + {b,g,s,l}
-	{firefox,gimp,spotify-launcher,libreoffice}
+	{librewolf,gimp,spotify-launcher,libreoffice}
 
 # 
 # ┌┐ ┌─┐┌─┐┬ ┬┌┬┐
