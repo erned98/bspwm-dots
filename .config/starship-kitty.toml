@@ -18,10 +18,10 @@ format = '[]($style) [$user]($style) in '
 
 [character]
 success_symbol = '[ ](bold green)'
-error_symbol = '[ ](bold red)'
+error_symbol = '[ ](bold bright-red)'
 
 [directory]
-style = 'bold italic purple'
+style = 'bold purple'
 truncation_length = 5
 truncation_symbol = ''
 truncate_to_repo = true
@@ -32,10 +32,10 @@ repo_root_format = '[$path]($style)[$read_only]($read_only_style) '
 
 [cmd_duration]
 min_time = 1000
-format = 'took [$duration](bold italic bright-yellow)' 
+format = '[took ](italic)[$duration](bold italic bright-yellow)' 
 
 [sudo]
-disabled = false
+disabled = true
 format = '  '
 style = 'bold bright-yellow'
 
@@ -83,7 +83,7 @@ symbol = " "
 
 [git_branch]
 symbol = " "
-style = 'bold italic bright-cyan'
+style = 'bold bright-cyan'
 
 [git_commit]
 tag_symbol = '  '
@@ -120,9 +120,14 @@ symbol = " "
 
 [lua]
 symbol = " "
+style = 'bold bright-cyan'
+detect_extensions = ['lua']
 
 [memory_usage]
-symbol = "󰍛 "
+disabled = false
+symbol = "  "
+style = 'bold bright-red'
+threshold = 80
 
 [meson]
 symbol = "󰔷 "
@@ -200,7 +205,7 @@ symbol = " "
 
 [python]
 symbol = " "
-style = 'bold italic bright-cyan'
+style = 'bold bright-cyan'
 detect_extensions = ["py"]
 
 [rlang]

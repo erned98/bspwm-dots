@@ -88,22 +88,18 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Set a fancy prompt
-case "$TERM" in
-    xterm-color|xterm-kitty) color_prompt=yes;;
-esac
-
-PENGUIN=🐧
-
-if [ "$color_prompt" = yes ]; then
-    eval "$(starship init zsh)"
+if [[ $TERM = "xterm-kitty" ]]; then
+    export STARSHIP_CONFIG=~/.config/starship-kitty.toml
 else
-	PROMPT=$'\n[%D{%H:%M}] %B%F{white}%~\n%f%b> '
+	export STARSHIP_CONFIG=~/.config/starship-tty.toml
 fi
 
+eval "$(starship init zsh)"
+
 # Start with a colourscript
-if [ "$color_prompt" = yes ]; then
+if [[ $TERM = "xterm-kitty" ]]; then
 	colorscript -r
-else
+elif [[ $(tty) =~ /dev/tty ]]; then
     setfont ter-232n
 fi
 
@@ -142,10 +138,16 @@ alias sxrc='$EDITOR ~/.config/sxhkd/sxhkdrc'
 alias pbrc='$EDITOR ~/.config/polybar/config.ini'
 alias ktrc='$EDITOR ~/.config/kitty/kitty.conf'
 alias drc='$EDITOR ~/.config/dunst/dunstrc'
-alias strc='$EDITOR ~/.config/starship.toml'
+
+if [[ $TERM = "xterm-kitty" ]]; then
+    alias strc='$EDITOR ~/.config/starship-kitty.toml'
+else
+    alias strc='$EDITOR ~/.config/starship-tty.toml'
+fi
 
 ## Productivity
 alias rec='ffmpeg -video_size 1920x1080 -framerate 25 -f x11grab -i :0.0 ~/Videos/Screencasts/rec-$(date +%y%m%d%H%M).mp4'
+alias yt-dlp="yt-dlp -f 'bestvideo[altezza<=1080][ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'"
 alias ping='ping -c 20'
 
 ## For the memes
