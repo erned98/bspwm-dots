@@ -39,6 +39,12 @@ disabled = true
 format = 'sudo'
 style = 'bold bright-yellow'
 
+[time]
+disabled = false
+format = '[$time]($style) '
+time_format = '%H:%M'
+style = 'bold white'
+
 # 
 # ┌─┐┬ ┬┌┬┐┌┐ ┌─┐┬  ┌─┐
 # └─┐└┬┘│││├┴┐│ ││  └─┐
