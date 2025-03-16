@@ -1,7 +1,7 @@
 #! /bin/sh
 
 ## first, let's install some components
-yay -S ttf-jetbrains-mono-nerd terminus-font flat-remix-gtk flat-remix spicetify-cli shell-color-scripts-git
+yay -S ttf-jetbrains-mono-nerd terminus-font flat-remix-gtk flat-remix spicetify-cli shell-color-scripts-git fortune-mod
 
 ## now, let's rice!
 
@@ -12,6 +12,7 @@ cp -rv .mpd ~
 cp -rv scripts ~/Scripts
 cp -rv Pictures ~/Pictures
 mkdir -pv ~/Pictures/Screenshots
+sudo rm /usr/share/fortune/*
 sudo cp -rv usr /
 sudo cp -rv etc /
 

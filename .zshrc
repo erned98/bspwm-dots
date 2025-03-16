@@ -96,11 +96,12 @@ fi
 
 eval "$(starship init zsh)"
 
-# Start with a colourscript
+# Start with a colourscript and a fortune cookie
+export FORTUNE=$(fortune -s)
 if [[ $TERM = "xterm-kitty" ]]; then
-	colorscript -r
+    colorscript -r && echo -e "\n\e[3m${FORTUNE}"
 elif [[ $(tty) =~ /dev/tty ]]; then
-    setfont ter-232n
+    setfont ter-232n && echo -e "\n${FORTUNE}"
 fi
 
 # 
@@ -147,7 +148,8 @@ fi
 
 ## Productivity
 alias rec='ffmpeg -video_size 1920x1080 -framerate 25 -f x11grab -i :0.0 ~/Videos/Screencasts/rec-$(date +%y%m%d%H%M).mp4'
-alias yt-dlp="yt-dlp -f 'bestvideo[altezza<=1080][ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'"
+alias ytmp4="yt-dlp -f 'bestvideo[altezza<=1080][ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' --cookies-from-browser firefox"
+alias ytmp3="yt-dlp -f 'bestaudio/best' --extract-audio --audio-format mp3 --audio-quality 320k --add-metadata --cookies-from-browser firefox"
 alias ping='ping -c 20'
 
 ## For the memes
