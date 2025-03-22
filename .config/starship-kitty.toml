@@ -26,12 +26,12 @@ truncation_length = 5
 truncation_symbol = ''
 truncate_to_repo = true
 read_only = '  '
-read_only_style = 'bold bright-cyan'
+read_only_style = 'bold cyan'
 home_symbol = '~'
 repo_root_format = '[$path]($style)[$read_only]($read_only_style) '
 
 [cmd_duration]
-min_time = 1000
+min_time = 5000
 format = '[took ](italic)[$duration](bold italic bright-yellow)' 
 
 [sudo]
@@ -83,7 +83,7 @@ symbol = " "
 
 [git_branch]
 symbol = " "
-style = 'bold bright-cyan'
+style = 'bold cyan'
 
 [git_commit]
 tag_symbol = '  '
@@ -120,7 +120,7 @@ symbol = " "
 
 [lua]
 symbol = " "
-style = 'bold bright-cyan'
+style = 'bold cyan'
 detect_extensions = ['lua']
 
 [memory_usage]
@@ -140,6 +140,7 @@ symbol = " "
 
 [nodejs]
 symbol = " "
+style = 'bold cyan'
 
 [ocaml]
 symbol = " "
@@ -205,7 +206,7 @@ symbol = " "
 
 [python]
 symbol = " "
-style = 'bold bright-cyan'
+style = 'bold cyan'
 detect_extensions = ["py"]
 
 [rlang]
