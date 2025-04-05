@@ -10,10 +10,10 @@
     <tag>zaokrąglony</tag>
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-mask" checksum="157dcef48665ab465439cfaf10d6feeb">
+  <resource identifier="gimp-brush-clipboard-image" checksum="157dcef48665ab465439cfaf10d6feeb">
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-image" checksum="157dcef48665ab465439cfaf10d6feeb">
+  <resource identifier="gimp-brush-clipboard-mask" checksum="157dcef48665ab465439cfaf10d6feeb">
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Basic/1-pixel.vbr" checksum="c84494b4a904a7c1a3548e564b073ca3">
@@ -208,13 +208,13 @@
   <resource identifier="${gimp_data_dir}/dynamics/Basic/Negative-Size-Pressure.gdyn" checksum="(null)">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/dynamics/Basic/Pen-Generic.gdyn" checksum="(null)">
-  </resource>
-
   <resource identifier="${gimp_data_dir}/dynamics/Basic/Pencil-Generic.gdyn" checksum="(null)">
   </resource>
 
   <resource identifier="${gimp_data_dir}/dynamics/Basic/Pencil-Shader.gdyn" checksum="(null)">
+  </resource>
+
+  <resource identifier="${gimp_data_dir}/dynamics/Basic/Pen-Generic.gdyn" checksum="(null)">
   </resource>
 
   <resource identifier="${gimp_data_dir}/dynamics/FX/Perspective.gdyn" checksum="(null)">
@@ -298,9 +298,6 @@
   <resource identifier="${mypaint_brushes_dir}/kaerhon_v1/airsmudgeultimate_sk.myb" checksum="0d171b9a901deff13618681583ca6516">
   </resource>
 
-  <resource identifier="${mypaint_brushes_dir}/ramon/B-pencil.myb" checksum="2988d540b16ef2e32d500e6b7af6d3cd">
-  </resource>
-
   <resource identifier="${mypaint_brushes_dir}/deevad/ballpen.myb" checksum="0df9565cf6dad98cb80e809346d0bda7">
   </resource>
 
@@ -340,6 +337,9 @@
   <resource identifier="${mypaint_brushes_dir}/ramon/Blur_Fast.myb" checksum="3e14060e7440e0f8447f3fbb5c6710d6">
   </resource>
 
+  <resource identifier="${mypaint_brushes_dir}/ramon/B-pencil.myb" checksum="2988d540b16ef2e32d500e6b7af6d3cd">
+  </resource>
+
   <resource identifier="${mypaint_brushes_dir}/classic/brush.myb" checksum="edcc0d95df5c1e1388bd9a0216d46acb">
   </resource>
 
@@ -376,10 +376,10 @@
   <resource identifier="${mypaint_brushes_dir}/ramon/Classic_Paint.myb" checksum="652661a003f0969a8d63c5276c21af3b">
   </resource>
 
-  <resource identifier="${mypaint_brushes_dir}/kaerhon_v1/classic_sk.myb" checksum="9bd31cfe236ff595d72278dc9245c47e">
+  <resource identifier="${mypaint_brushes_dir}/kaerhon_v1/classicroundblock_static_c.myb" checksum="8a302c6160d1d033b13a4f4cd78f0646">
   </resource>
 
-  <resource identifier="${mypaint_brushes_dir}/kaerhon_v1/classicroundblock_static_c.myb" checksum="8a302c6160d1d033b13a4f4cd78f0646">
+  <resource identifier="${mypaint_brushes_dir}/kaerhon_v1/classic_sk.myb" checksum="9bd31cfe236ff595d72278dc9245c47e">
   </resource>
 
   <resource identifier="${mypaint_brushes_dir}/ramon/Clouds.myb" checksum="7fa3079c18b44060670420deec6861b2">
@@ -472,10 +472,10 @@
   <resource identifier="${mypaint_brushes_dir}/classic/ink_eraser.myb" checksum="2a9f9d4fc333a98c66b24bd3bf61bbf4">
   </resource>
 
-  <resource identifier="${mypaint_brushes_dir}/kaerhon_v1/ink_slow_s.myb" checksum="142431dd853cbaea246b5ef55d861218">
+  <resource identifier="${mypaint_brushes_dir}/kaerhon_v1/ink-slowline_s.myb" checksum="bdb4cc8434a37f470b8caad86e678c9e">
   </resource>
 
-  <resource identifier="${mypaint_brushes_dir}/kaerhon_v1/ink-slowline_s.myb" checksum="bdb4cc8434a37f470b8caad86e678c9e">
+  <resource identifier="${mypaint_brushes_dir}/kaerhon_v1/ink_slow_s.myb" checksum="142431dd853cbaea246b5ef55d861218">
   </resource>
 
   <resource identifier="${mypaint_brushes_dir}/kaerhon_v1/inkster_l.myb" checksum="34184247174bf95343a4fe85240789f1">
@@ -559,9 +559,6 @@
   <resource identifier="${mypaint_brushes_dir}/deevad/only_water_fringe.myb" checksum="96d556d137c3bfec7dbc3ce0745c0e01">
   </resource>
 
-  <resource identifier="${mypaint_brushes_dir}/ramon/P._Shade.myb" checksum="a6b44ee613ffdd5b6d4ce6050838bbc5">
-  </resource>
-
   <resource identifier="${mypaint_brushes_dir}/kaerhon_v1/paint_barrr_sm.myb" checksum="267761c0eb7ddd9ef19c139ba2367c87">
   </resource>
 
@@ -589,9 +586,6 @@
   <resource identifier="${mypaint_brushes_dir}/deevad/pen.myb" checksum="f153b2d8987efdb2be18b8813a47bf54">
   </resource>
 
-  <resource identifier="${mypaint_brushes_dir}/deevad/pen-note.myb" checksum="53c28c28967a1b373f58010d4e2883f2">
-  </resource>
-
   <resource identifier="${mypaint_brushes_dir}/ramon/PenBrush.myb" checksum="a2cb08ec273ec224df7217655de5fb19">
   </resource>
 
@@ -604,16 +598,22 @@
   <resource identifier="${mypaint_brushes_dir}/tanda/pencil-8b.myb" checksum="45b873e55578e2287a2ab2ad73fbc461">
   </resource>
 
-  <resource identifier="${mypaint_brushes_dir}/experimental/pick_and_drag.myb" checksum="c2f441d54d7a8f2097c96087717e22ac">
+  <resource identifier="${mypaint_brushes_dir}/deevad/pen-note.myb" checksum="53c28c28967a1b373f58010d4e2883f2">
   </resource>
 
-  <resource identifier="${mypaint_brushes_dir}/experimental/pixel_hardink.myb" checksum="cc53998efab5d3cd5064e46bda62800c">
+  <resource identifier="${mypaint_brushes_dir}/experimental/pick_and_drag.myb" checksum="c2f441d54d7a8f2097c96087717e22ac">
   </resource>
 
   <resource identifier="${mypaint_brushes_dir}/experimental/pixelblocking.myb" checksum="be6506b5fbef99d305c8b973cb7b14c3">
   </resource>
 
+  <resource identifier="${mypaint_brushes_dir}/experimental/pixel_hardink.myb" checksum="cc53998efab5d3cd5064e46bda62800c">
+  </resource>
+
   <resource identifier="${mypaint_brushes_dir}/classic/pointy_ink.myb" checksum="ab81789cd3584926f103b7a4ed452d65">
+  </resource>
+
+  <resource identifier="${mypaint_brushes_dir}/ramon/P._Shade.myb" checksum="a6b44ee613ffdd5b6d4ce6050838bbc5">
   </resource>
 
   <resource identifier="${mypaint_brushes_dir}/classic/puantilism.myb" checksum="d05c2b445f6c4e69886143ceb07adba0">
@@ -952,16 +952,16 @@
   <resource identifier="gimp-gradient-custom" checksum="4a878c6cfae0b0e03c0834723daadf92">
   </resource>
 
-  <resource identifier="gimp-gradient-fg-bg-hsv-cw" checksum="86589f70c8a7777c6e2d1d14b99e3759">
+  <resource identifier="gimp-gradient-fg-bg-rgb-hardedge" checksum="f3a21fae99695a8feac84cee0ddd716a">
   </resource>
 
   <resource identifier="gimp-gradient-fg-bg-hsv-ccw" checksum="65aacbbd72d99ff20ca1bd310f0a21a5">
   </resource>
 
-  <resource identifier="gimp-gradient-fg-bg-rgb" checksum="4a878c6cfae0b0e03c0834723daadf92">
+  <resource identifier="gimp-gradient-fg-bg-hsv-cw" checksum="86589f70c8a7777c6e2d1d14b99e3759">
   </resource>
 
-  <resource identifier="gimp-gradient-fg-bg-rgb-hardedge" checksum="f3a21fae99695a8feac84cee0ddd716a">
+  <resource identifier="gimp-gradient-fg-bg-rgb" checksum="4a878c6cfae0b0e03c0834723daadf92">
   </resource>
 
   <resource identifier="gimp-gradient-fg-transparent" checksum="1491f74caf057a39c8193470da2d2a29">
@@ -1180,79 +1180,79 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="(null)">
+  <resource identifier="gimp-palette-color-history" checksum="db98679cc007464437e05615de15f376">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="258096aed894d844833b9c4bd9247735">
+  <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Bgold.gpl" checksum="e5d44d5022d095aecc0d9e09fdb0fc39">
+  <resource identifier="${gimp_data_dir}/palettes/Bgold.gpl" checksum="346622db0138429b0fab8b5d79d8a95c">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Blues.gpl" checksum="119d624a00a373ab9184c6fc89ce7cee">
+  <resource identifier="${gimp_data_dir}/palettes/Blues.gpl" checksum="16906e712e0573b8562ed5220298502b">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Borders.gpl" checksum="5336f639548542eb3501b83ca904ae51">
+  <resource identifier="${gimp_data_dir}/palettes/Borders.gpl" checksum="3bc2921d2c89edc115ab7f42896c0c01">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Browns_And_Yellows.gpl" checksum="d642210b147ec6b2b3f7d4d00bce6448">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Caramel.gpl" checksum="6c57928098b25b9ef926f20cf407842f">
+  <resource identifier="${gimp_data_dir}/palettes/Caramel.gpl" checksum="1edf264a8bc4a91b1bef64a5ad4c854d">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Cascade.gpl" checksum="cb89cd171a8eb22daefd2b38013220e3">
+  <resource identifier="${gimp_data_dir}/palettes/Cascade.gpl" checksum="54c05cc23d1e73d73adb4fa9846c80b2">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/China.gpl" checksum="590fd259fa7f6cf77965f463cfc937f2">
+  <resource identifier="${gimp_data_dir}/palettes/China.gpl" checksum="05c14acb0d2ba92d317ea3d7e94d63f1">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Coldfire.gpl" checksum="b06164a047da2ba18fce9f3c17a22346">
+  <resource identifier="${gimp_data_dir}/palettes/Coldfire.gpl" checksum="1ed0c4895cf5473479ae25e798008094">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Cool_Colors.gpl" checksum="1f882d903ca41b4d0332ef48e3a2e101">
+  <resource identifier="${gimp_data_dir}/palettes/Cool_Colors.gpl" checksum="8fc00f172559e702a5ab9680013b0554">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Cranes.gpl" checksum="9bb4a250dff0960f166086bd04ed0ed1">
+  <resource identifier="${gimp_data_dir}/palettes/Cranes.gpl" checksum="cb2e9acc0ed26521d3aed8948aa0d4e8">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Dark_pastels.gpl" checksum="ea9add57eda5d96e31b17ef4551b25f3">
+  <resource identifier="${gimp_data_dir}/palettes/Dark_pastels.gpl" checksum="8fa7a69d183b2f1b41397d27dfa10a89">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Default.gpl" checksum="b8d8754cf636809b474b501e4c540788">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Ega.gpl" checksum="15e6bd7f8f8fe9d083b0c4a35325daeb">
+  <resource identifier="${gimp_data_dir}/palettes/Ega.gpl" checksum="a8842755eb6e9534d89bc4dfa360ea91">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Firecode.gpl" checksum="634cba24bf4d8b5fc567fe35a698774b">
+  <resource identifier="${gimp_data_dir}/palettes/Firecode.gpl" checksum="31da06a142dbb7e290ecae399da8c198">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Gold.gpl" checksum="7101eafe4f976436db8eb6884a485d90">
+  <resource identifier="${gimp_data_dir}/palettes/Gold.gpl" checksum="69156b66cb39a691e8ee92824facfc74">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Grayblue.gpl" checksum="70fe50c4ad26cd249303ad88f2378020">
+  <resource identifier="${gimp_data_dir}/palettes/Grayblue.gpl" checksum="50e95752c59ed66f2871533b48ad80f7">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Grays.gpl" checksum="fcf5e6f9da0fbc46bac07d34741fd648">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/GrayViolet.gpl" checksum="6bfbb3fa888e858983a6f665fbf51701">
+  <resource identifier="${gimp_data_dir}/palettes/GrayViolet.gpl" checksum="3a200b1b9ca7f3b7bcebc70fe4a4832e">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Greens.gpl" checksum="4e1af3b711e8c32d37fff9c193b49ec1">
+  <resource identifier="${gimp_data_dir}/palettes/Greens.gpl" checksum="c74e6275e9e921dcc64870a670697fa0">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Hilite.gpl" checksum="365d980b11460444faf66f911380c71e">
+  <resource identifier="${gimp_data_dir}/palettes/Hilite.gpl" checksum="9cecfa2be285ac84b832335b8d32d915">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Khaki.gpl" checksum="30935234ffabd4e3cf4bfdfce72bc093">
+  <resource identifier="${gimp_data_dir}/palettes/Khaki.gpl" checksum="cbcc5d547c2000f8639efa68d4f6f18e">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Lights.gpl" checksum="3483aee51ec01db06b41463903da53f9">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Linux.gpl" checksum="ee3af62fbd9e09d691fa4d0f46e6e6fb">
+  <resource identifier="${gimp_data_dir}/palettes/Linux.gpl" checksum="0e7549f6e63ef2b1de3f537cc7da022b">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Muted.gpl" checksum="24bc023216795f2eb722546696d3082d">
@@ -1261,34 +1261,34 @@
   <resource identifier="${gimp_data_dir}/palettes/Named_Colors.gpl" checksum="9ab88f7333eb4d71a2adb8af16053d68">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/News3.gpl" checksum="aa5bc03b87f2ab3bddb68b8871c33f1c">
+  <resource identifier="${gimp_data_dir}/palettes/News3.gpl" checksum="d45d654d154d6b7c3ce7e3b7635e863d">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Op2.gpl" checksum="b76997f507f9d2a29ab04dc739b5b729">
+  <resource identifier="${gimp_data_dir}/palettes/Op2.gpl" checksum="082035d380a34e045f0548df4d44f82f">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Paintjet.gpl" checksum="04c32a213dca8def9d85b151069fd167">
+  <resource identifier="${gimp_data_dir}/palettes/Paintjet.gpl" checksum="2c4f4c6e46d18ebd62e38912b1df6b68">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Pastels.gpl" checksum="71ad975d63d876cc18113228324ba9d1">
+  <resource identifier="${gimp_data_dir}/palettes/Pastels.gpl" checksum="c17b8c554459325319934d120fc3daec">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Plasma.gpl" checksum="8cdb0ce2513b2126b8ffba1a0dbd4db8">
+  <resource identifier="${gimp_data_dir}/palettes/Plasma.gpl" checksum="086d1d645e1fec277ae99bb351dc59de">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Reds.gpl" checksum="6488da23f77740868df5053d8ba5048a">
+  <resource identifier="${gimp_data_dir}/palettes/Reds.gpl" checksum="cd1ed47383e48553e0702a7a554fa3fd">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Reds_And_Purples.gpl" checksum="c0bc2a7991d9c65ea9d19f9c5c47e8b1">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Royal.gpl" checksum="542785afcdfdcea65f459fa5f83b159a">
+  <resource identifier="${gimp_data_dir}/palettes/Royal.gpl" checksum="c2afa124f653f4253d94e225c926c94a">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Tango.gpl" checksum="0c31eccdd183d0ae24778f1b1e527018">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Topographic.gpl" checksum="233c0ba3ca7481c0021834170b735b22">
+  <resource identifier="${gimp_data_dir}/palettes/Topographic.gpl" checksum="7281433871d8c0904cfe2975424fbdc9">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Visibone.gpl" checksum="83236d5917dddacdc89d228e503db053">
@@ -1297,13 +1297,13 @@
   <resource identifier="${gimp_data_dir}/palettes/Visibone_2.gpl" checksum="a6ecc8ab9898c86dc03eb58ab6dcb3b9">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Volcano.gpl" checksum="d3cd685ced512e9f57ff63179726cb3d">
+  <resource identifier="${gimp_data_dir}/palettes/Volcano.gpl" checksum="1d1fd8e110046e9f33e7be9ef7fe8d7b">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Warm_Colors.gpl" checksum="b98a88f2fc935b3dc95199392ac50196">
+  <resource identifier="${gimp_data_dir}/palettes/Warm_Colors.gpl" checksum="de9eb66b02c0eaa5d6ee4ee30638e91d">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/palettes/Web.gpl" checksum="b7dc5bc715fe9c5ac2bcc86c63f6cdf8">
+  <resource identifier="${gimp_data_dir}/palettes/Web.gpl" checksum="f02e8dfa23d01d6acfbab7f895c2dd16">
   </resource>
 
   <resource identifier="Adobe Courier" checksum="(null)">
@@ -1372,16 +1372,16 @@
   <resource identifier="B&amp;H Lucida Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="B&amp;H Lucida Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="B&amp;H Lucida Medium Italic" checksum="(null)">
-  </resource>
-
   <resource identifier="B&amp;H LucidaBright" checksum="(null)">
   </resource>
 
   <resource identifier="B&amp;H LucidaBright Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="B&amp;H Lucida Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="B&amp;H Lucida Medium Italic" checksum="(null)">
   </resource>
 
   <resource identifier="B&amp;H LucidaTypewriter Bold" checksum="(null)">
@@ -1526,336 +1526,6 @@
   </resource>
 
   <resource identifier="DejaVu Serif Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Bold Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Bold Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Heavy Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Heavy Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Light Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Light Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Medium Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Medium Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Semi-Bold Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Semi-Bold Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Semi-Light Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Semi-Light Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Thin Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Thin Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Thin Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Thin Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Thin Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Thin Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Thin Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Thin Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Thin Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Thin Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Ultra-Bold Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Ultra-Bold Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Ultra-Light Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Ultra-Light Italic Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Ultra-Light Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Compressed Ultra-Light Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Bold Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Bold Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Heavy Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Heavy Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Light Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Light Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Medium Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Medium Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Semi-Bold Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Semi-Bold Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Semi-Light Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Semi-Light Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Thin Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Thin Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Thin Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Thin Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Thin Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Thin Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Thin Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Thin Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Thin Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Thin Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Ultra-Bold Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Ultra-Bold Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Ultra-Light Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Ultra-Light Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Ultra-Light Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Condensed, Ultra-Light Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Heavy" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Heavy Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Medium Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Semi-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Semi-Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Semi-Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Semi-Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Thin" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Thin" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Thin" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Thin" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Thin" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Thin Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Thin Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Thin Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Thin Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Thin Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Ultra-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Ultra-Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Ultra-Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Ultra-Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Ultra-Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans Ultra-Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans weight=950" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fira Sans weight=950 Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Mono" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Mono Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Mono Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Mono Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Mono Semi-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Mono weight=450" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Propo" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Propo Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Propo Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Propo Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Propo Semi-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Propo weight=450" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font Semi-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="FiraCode Nerd Font weight=450" checksum="(null)">
   </resource>
 
   <resource identifier="JetBrainsMono Nerd Font" checksum="(null)">
@@ -2192,6 +1862,9 @@
   </resource>
 
   <resource identifier="Monospace Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="mtx" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Color Emoji" checksum="(null)">
@@ -5284,6 +4957,9 @@
   <resource identifier="Noto Sans Nandinagari" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Newa" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans New Tai Lue" checksum="(null)">
   </resource>
 
@@ -5294,9 +4970,6 @@
   </resource>
 
   <resource identifier="Noto Sans New Tai Lue Semibold," checksum="(null)">
-  </resource>
-
-  <resource identifier="Noto Sans Newa" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans NKo" checksum="(null)">
@@ -8851,37 +8524,58 @@
   <resource identifier="Open Sans Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Open Sans Bold Condensed" checksum="(null)">
+  </resource>
+
   <resource identifier="Open Sans Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Open Sans Condensed, Bold Condensed" checksum="(null)">
+  <resource identifier="Open Sans Bold Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Open Sans Condensed, Light Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Open Sans Condensed, Light Italic Condensed" checksum="(null)">
+  <resource identifier="Open Sans Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Open Sans Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Open Sans Italic Condensed" checksum="(null)">
+  </resource>
+
   <resource identifier="Open Sans Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Light Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Open Sans Light Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Open Sans Light Italic Condensed" checksum="(null)">
+  </resource>
+
   <resource identifier="Open Sans Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Semi-Bold Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Open Sans Semi-Bold Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Open Sans Semi-Bold Italic Condensed" checksum="(null)">
+  </resource>
+
   <resource identifier="Open Sans Ultra-Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Open Sans Ultra-Bold Condensed" checksum="(null)">
+  </resource>
+
   <resource identifier="Open Sans Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Ultra-Bold Italic Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Sans-serif" checksum="(null)">

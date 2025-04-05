@@ -153,7 +153,7 @@ alias ytmp3="yt-dlp -f 'bestaudio/best' --extract-audio --audio-format mp3 --aud
 alias ping='ping -c 20'
 
 ## For the memes
-alias fetch='echo && fastfetch'
+alias fetch='echo && fastfetch -l none'
 alias clr='colorscript -e blocks1'
 alias hello="notify-send 'Oh, hi! Nice to see you!' 'Remember to take regular breaks and drink water!' -i tux"
 alias btw="notify-send 'i use arch btw' -i /usr/share/icons/Flat-Remix-Orange-Dark/status/scalable/512/distributor-logo-archlinux.svg"

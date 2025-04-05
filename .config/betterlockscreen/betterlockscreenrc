@@ -15,7 +15,7 @@ quiet=false
 # default theme
 loginbox=000d0d0d
 loginshadow=00000000
-locktext="validate yourself..."
+locktext="please authenticate"
 font="JetBrainsMono Nerd Font"
 font_size=48
 font_size_small=11.75

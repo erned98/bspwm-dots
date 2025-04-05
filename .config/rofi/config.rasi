@@ -1,8 +1,17 @@
 configuration {
 display-drun: " ";
 display-run: " ";
+display-window: " ";
 display-power-menu:" ";
 }
 
-@theme "/home/erne/.local/share/rofi/themes/squared-eos.rasi"
+//@theme "/home/erne/.local/share/rofi/themes/squared-eos.rasi"
 
+
+//@theme "/usr/share/rofi/themes/dmenu.rasi"
+
+//@theme "/home/erne/.local/share/rofi/themes/squared-eos.rasi"
+
+//@theme "/home/erne/.local/share/rofi/themes/squared-pywal-test.rasi"
+
+@theme "/home/erne/.local/share/rofi/themes/squared-eos.rasi"

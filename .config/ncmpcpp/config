@@ -1,5 +1,8 @@
 % egrep -v '^#' ~/.ncmpcpp/config
-mpd_music_dir = "~/Muzyka"
+mpd_music_dir = "~/Music"
+startup_screen = "playlist"
+startup_slave_screen = "visualizer"
+
 visualizer_in_stereo = "yes"
 visualizer_data_source = "/tmp/mpd.fifo"
 visualizer_output_name = "my_fifo"

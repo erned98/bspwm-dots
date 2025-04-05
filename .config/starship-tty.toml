@@ -22,7 +22,7 @@ error_symbol = '[X](bold bright-red)'
 
 [directory]
 style = 'bold purple'
-truncation_length = 5
+truncation_length = 10
 truncation_symbol = ''
 truncate_to_repo = true
 read_only = ' [ro] '
