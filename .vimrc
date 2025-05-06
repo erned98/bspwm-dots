@@ -28,7 +28,7 @@ runtime! archlinux.vim
 " BASIC ----------------------------------------------------------
 
 " Set default colorscheme
-colorscheme flat-remix-eos
+colorscheme flat-remix-2025
 
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
@@ -58,7 +58,7 @@ set shiftwidth=4
 set tabstop=4
 
 " Use space characters instead of tabs.
-set expandtab
+" set expandtab
 
 " Do not save backup files.
 set nobackup
