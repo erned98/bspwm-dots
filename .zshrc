@@ -52,6 +52,11 @@ export VISUAL="vim"
 export SUDO_EDITOR="vim"
 export DIFFPROG="colordiff"
 
+# Set the right language rendering for tty
+if [[ $(tty) =~ /dev/tty ]]; then
+    setfont ter-232n
+fi
+
 # 
 # ┌─┐┌─┐┌─┐┌┬┐┬ ┬┌─┐┌┬┐┬┌─┐┌─┐
 # ├─┤├┤ └─┐ │ ├─┤├┤  │ ││  └─┐
@@ -100,8 +105,8 @@ eval "$(starship init zsh)"
 export FORTUNE=$(fortune -s)
 if [[ $TERM = "xterm-kitty" ]]; then
     colorscript -r && echo -e "\n\e[3m${FORTUNE}"
-elif [[ $(tty) =~ /dev/tty ]]; then
-    setfont ter-232n && echo -e "\n${FORTUNE}"
+else 
+    echo -e "\n${FORTUNE}"
 fi
 
 # 
