@@ -156,6 +156,7 @@ alias rec='ffmpeg -video_size 1920x1080 -framerate 25 -f x11grab -i :0.0 ~/Video
 alias ytmp4="yt-dlp -f 'bestvideo[altezza<=1080][ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' --cookies-from-browser firefox"
 alias ytmp3="yt-dlp -f 'bestaudio/best' --extract-audio --audio-format mp3 --audio-quality 320k --add-metadata --cookies-from-browser firefox"
 alias ping='ping -c 20'
+alias stf1='starship explain'
 
 ## For the memes
 alias fetch='echo && fastfetch -l none'
