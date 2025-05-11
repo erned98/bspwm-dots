@@ -94,7 +94,7 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Set a fancy prompt
 if [[ $TERM = "xterm-kitty" ]]; then
-    export STARSHIP_CONFIG=~/.config/starship-kitty.toml
+    export STARSHIP_CONFIG=~/.config/starship-kitty-jetpack.toml
 else
 	export STARSHIP_CONFIG=~/.config/starship-tty.toml
 fi
@@ -146,7 +146,7 @@ alias ktrc='$EDITOR ~/.config/kitty/kitty.conf'
 alias drc='$EDITOR ~/.config/dunst/dunstrc'
 
 if [[ $TERM = "xterm-kitty" ]]; then
-    alias strc='$EDITOR ~/.config/starship-kitty.toml'
+    alias strc='$EDITOR ~/.config/starship-kitty-jetpack.toml'
 else
     alias strc='$EDITOR ~/.config/starship-tty.toml'
 fi

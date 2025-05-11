@@ -1,0 +1,351 @@
+# version: 1.0.0
+
+# add_newline = true
+continuation_prompt = "[» ](dimmed white)"
+
+format = """$cmd_duration\
+$hostname\
+$localip\
+$shlvl\
+$shell\
+$env_var\
+$jobs\
+$sudo\
+$username\
+$character"""
+
+right_format = """
+$directory\
+${custom.syncthing}\
+$singularity\
+$kubernetes\
+$vcsh\
+$fossil_branch\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$hg_branch\
+$pijul_channel\
+$docker_context\
+$package\
+$c\
+$cpp\
+$cmake\
+$cobol\
+$daml\
+$dart\
+$deno\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$fennel\
+$golang\
+$guix_shell\
+$haskell\
+$haxe\
+$helm\
+$java\
+$julia\
+$kotlin\
+$gradle\
+$lua\
+$nim\
+$nodejs\
+$ocaml\
+$opa\
+$perl\
+$php\
+$pulumi\
+$purescript\
+$python\
+$raku\
+$rlang\
+$red\
+$ruby\
+$rust\
+$scala\
+$solidity\
+$swift\
+$terraform\
+$vlang\
+$vagrant\
+$zig\
+$buf\
+$conda\
+$pixi\
+$meson\
+$spack\
+$memory_usage\
+$aws\
+$gcloud\
+$openstack\
+$azure\
+$crystal\
+$custom\
+$status\
+$os\
+$battery\
+$time"""
+
+[fill]
+symbol = ' '
+
+[character]
+format = "$symbol "
+success_symbol = "[](bold bright-green)"
+error_symbol = "[](bold bright-red)"
+vimcmd_symbol = "[](bold dimmed bright-green)"
+
+[env_var.VIMSHELL]
+format = "[$env_value]($style)"
+style = 'green italic'
+
+[sudo]
+format = "[$symbol]($style)"
+style = "bold yellow"
+symbol = "  "
+disabled = false
+
+[username]
+style_user = "bright-yellow bold"
+style_root = "red bold"
+format = "[ $user]($style) "
+disabled = false
+show_always = false
+
+[directory]
+truncation_length = 3
+truncation_symbol = "…/"
+read_only = " "
+read_only_style = "bold yellow"
+use_os_path_sep = true
+style = "bold bright-cyan"
+format = '[  $path ]($style)[$read_only]($read_only_style)'
+repo_root_style = 'bold bright-cyan'
+repo_root_format = '[  ]($style)[$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) [ ](bold bright-cyan)'
+
+[cmd_duration]
+format = "[ ](bold bright-white)[$duration ](bold yellow)"
+
+[jobs]
+format = "[$symbol$number]($style) "
+style = "white"
+symbol = "[✦](cyan bold)"
+
+[localip]
+ssh_only = true
+format = " [  $localipv4](bold magenta)"
+disabled = false
+
+[time]
+disabled = false
+format = "[ $time]($style)"
+time_format = "%R"
+utc_time_offset = "local"
+style = "dimmed white"
+
+[battery]
+format = "[ $symbol $percentage]($style)"
+full_symbol = "󰁹"
+charging_symbol = "[󰂄](dimmed green)"
+discharging_symbol = "󰁿"
+unknown_symbol = "󰂃"
+empty_symbol = "󰂎"
+
+[[battery.display]]
+threshold = 25
+style = "dimmed bright-red"
+
+[[battery.display]]
+threshold = 50
+style = "dimmed yellow"
+
+[[battery.display]]
+threshold = 75
+style = "dimmed green"
+
+[git_branch]
+format = " [$branch(:$remote_branch)]($style)"
+symbol = "[ ](bold italic bright-blue)"
+style = "italic bright-blue"
+truncation_symbol = "…"
+truncation_length = 11
+ignore_branches = ["main", "master"]
+only_attached = true
+
+[git_metrics]
+format = '([▴$added]($added_style))([▿$deleted]($deleted_style))'
+added_style = 'italic dimmed green'
+deleted_style = 'italic dimmed red'
+ignore_submodules = true
+disabled = false
+
+[git_status]
+style = "bold bright-yellow"
+format = '([\[$all_status$ahead_behind\]]($style) )'
+conflicted = "="
+ahead = "↑"
+behind = "↓"
+diverged = "🡙"
+untracked = "?"
+stashed = "$"
+modified = "!"
+staged = "+"
+renamed = "»"
+deleted = "×"
+
+[deno]
+format = " [$symbol]($style) "
+symbol = ""
+style = "bold yellow"
+version_format = "${raw}"
+
+[lua]
+format = " [$symbol]($style) "
+version_format = "${raw}"
+symbol = ""
+style = "bold yellow"
+detect_extensions = ['lua']
+
+[nodejs]
+format = " [$symbol]($style) "
+symbol = ""
+style = "bold yellow"
+version_format = "${raw}"
+detect_files = ["package-lock.json", "yarn.lock"]
+detect_folders = ["node_modules"]
+detect_extensions = []
+
+[python]
+format = " [$symbol]($style) "
+symbol = ""
+version_format = "${raw}"
+style = "bold yellow"
+
+[ruby]
+format = " [$symbol]($style) "
+symbol = ""
+version_format = "${raw}"
+style = "bold yellow"
+
+[rust]
+format = " [$symbol]($style) "
+symbol = ""
+version_format = "${raw}"
+style = "bold yellow"
+
+[package]
+format = " [$symbol $version]($style) "
+version_format = "${raw}"
+symbol = ""
+style = "dimmed yellow bold"
+
+[swift]
+format = " [$symbol]($style) "
+symbol = ""
+style = "bold yellow"
+version_format = "${raw}"
+
+[aws]
+disabled = true
+format = " [$symbol $profile $region]($style) "
+style = "bold yellow"
+symbol = ""
+
+[buf]
+symbol = ""
+format = " [$symbol $version $buf_version]($style) "
+style = "bold yellow"
+
+[c]
+symbol = ""
+format = " [$symbol($version(-$name))]($style)"
+style = "bold yellow"
+
+[cpp]
+symbol = ""
+format = " [$symbol($version(-$name))]($style)"
+style = "bold yellow"
+
+[conda]
+symbol = ""
+format = " [$symbol $environment]($style) "
+style = "bold yellow"
+
+[pixi]
+symbol = "■"
+format = " [pixi ($environment )]($style) "
+style = "bold yellow"
+
+[dart]
+symbol = ""
+format = " [$symbol]($style) "
+style = "bold yellow"
+
+[docker_context]
+symbol = ""
+format = " [$symbol $context]($style) "
+style = "bold yellow"
+
+[elixir]
+symbol = ""
+format = " [$symbol OTP $otp_version ]($style) "
+style = "bold yellow"
+
+[elm]
+symbol = ""
+format = " [$symbol]($style) "
+style = "bold yellow"
+
+[golang]
+symbol = ""
+format = " [$symbol]($style) "
+style = "bold yellow"
+
+[haskell]
+symbol = ""
+format = " [$symbol]($style) "
+style = "bold yellow"
+
+[java]
+symbol = ""
+format = " [$symbol]($style) "
+style = "bold yellow"
+
+[julia]
+symbol = ""
+format = " [$symbol]($style) "
+style = "bold yellow"
+
+[memory_usage]
+disabled = false
+symbol = ""
+format = " [](bold yellow)  $symbol  [ram ${ram_pct} | swp ${swap_pct}]($style) "
+style = "bold bright-red"
+threshold = 75
+
+[nim]
+symbol = ""
+format = " [$symbol]($style) "
+style = "bold yellow"
+
+[nix_shell]
+style = 'bold italic dimmed blue'
+symbol = ''
+format = '[$symbol \[$state\]($style) [$name](bold white)'
+impure_msg = '[impure](bold dimmed red)'
+pure_msg = '[pure](bold dimmed green)'
+unknown_msg = '[?](bold dimmed ellow)'
+
+[spack]
+symbol = ""
+format = " [$symbol $environment]($style) "
+style = "bold yellow"
+
+[custom.syncthing]
+symbol = ""
+format = "[$symbol]($style) "
+style = "bold yellow"
+detect_folders = [".stfolder"]
